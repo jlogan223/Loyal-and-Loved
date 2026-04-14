@@ -10,18 +10,18 @@
 /* CSS Custom Properties */
 :root {
   /* Colors (light mode defaults) */
-  --color-primary: #5B7C5B;
-  --color-accent: #C4745A;
-  --color-dark: #2D2D2D;
-  --color-light: #FAF7F2;
-  --color-cream: #FFF8F0;
+  --color-primary: #189181;
+  --color-accent: #8A44F3;
+  --color-dark: #1E2D2B;
+  --color-light: #E8F2ED;
+  --color-cream: #FFE4D6;
 
   --color-bg: var(--color-light);
   --color-text: var(--color-dark);
-  --color-text-secondary: #666666;
-  --color-border: #e0e0e0;
-  --color-card-bg: #ffffff;
-  --color-input-bg: #ffffff;
+  --color-text-secondary: #566664;
+  --color-border: #C8D8D4;
+  --color-card-bg: #FFFFFF;
+  --color-input-bg: #FFFFFF;
 
   /* Fonts */
   --font-heading: 'Fraunces', serif;
@@ -56,12 +56,14 @@
 }
 
 [data-theme="dark"] {
-  --color-bg: #1a1a1a;
-  --color-text: #fafafa;
-  --color-text-secondary: #aaaaaa;
-  --color-border: #333333;
-  --color-card-bg: #262626;
-  --color-input-bg: #1a1a1a;
+  --color-bg: #34413F;
+  --color-text: #EDEDED;
+  --color-text-secondary: #7FB5AD;
+  --color-border: #4A5856;
+  --color-card-bg: #1E2D2B;
+  --color-input-bg: #34413F;
+  --color-light: #34413F;
+  --color-cream: #3A4845;
 }
 
 /* Reset */
@@ -218,9 +220,13 @@ header {
   color: var(--color-primary);
 }
 
-/* On dark theme, ensure logo image is visible */
+/* On dark theme, lighten logo for visibility on dark backgrounds */
 [data-theme="dark"] .logo-img {
-  filter: brightness(1.3);
+  filter: brightness(0) invert(1) brightness(0.85);
+}
+
+[data-theme="dark"] .logo-text {
+  color: var(--color-text);
 }
 
 /* Navigation */
@@ -569,9 +575,10 @@ nav a:hover {
 }
 
 .affiliate-btn--pending {
-  background-color: #999;
-  cursor: not-allowed;
-  opacity: 0.7;
+  background-color: #B0B0B0;
+  cursor: default;
+  opacity: 0.85;
+  font-size: 0.9em;
 }
 
 /* Article Grid */
