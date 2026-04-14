@@ -35,6 +35,15 @@ except ImportError:
 ROOT = Path(__file__).resolve().parent.parent
 load_dotenv(ROOT / ".env")
 
+# Curated per-article prompts (optional). When a slug is in ARTICLE_PROMPTS
+# we use that scene verbatim instead of the generic style template.
+try:
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from prompts import ARTICLE_PROMPTS, GLOBAL_RULES  # type: ignore
+except Exception:
+    ARTICLE_PROMPTS = {}
+    GLOBAL_RULES = ""
+
 # Brand-aligned style prompts. These get prepended to each description.
 _NO_TEXT = (
     " ABSOLUTELY NO TEXT, no lettering, no words, no captions, no signs, "
@@ -59,18 +68,31 @@ STYLE_PROMPTS = {
 # Image generation settings
 MODEL = "gpt-image-1"
 SIZE = "1024x1024"  # square — fits both card and hero crops well
-QUALITY = "low"     # "low" = ~$0.011/img, "medium" ~$0.04, "high" ~$0.17
+QUALITY = "high"    # "low" ~$0.011/img, "medium" ~$0.04, "high" ~$0.17
+                    # High is worth it for photorealism and to minimise
+                    # garbled lettering — fallback to "medium" via --quality
+                    # on reruns.
 
 
 def build_prompt(entry: dict) -> str:
+    """Build the final image prompt.
+
+    Priority:
+      1. Curated scene from prompts.ARTICLE_PROMPTS (keyed by article slug)
+         — used whenever we have a bespoke brief for that article.
+      2. Generic style template + placeholder description + global rules.
+    """
+    slug = entry.get("article_slug", "")
+    # Hero images get the curated treatment when available.
+    if entry.get("position") == 1 and slug in ARTICLE_PROMPTS:
+        return ARTICLE_PROMPTS[slug]
+
     style = entry["style"]
     desc = entry["description"]
-    # Strip trailing "Hero image for this article" — too vague
     if desc.lower().startswith("hero image"):
-        # Use the slug as a fallback context cue
-        slug_human = entry["article_slug"].replace("-", " ").title()
+        slug_human = slug.replace("-", " ").title()
         desc = f"editorial-style image representing the topic '{slug_human}'"
-    return STYLE_PROMPTS[style] + desc
+    return STYLE_PROMPTS[style] + desc + GLOBAL_RULES
 
 
 def generate_one(client: OpenAI, prompt: str, out_path: Path) -> bool:

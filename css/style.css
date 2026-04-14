@@ -685,26 +685,33 @@ nav a:hover {
   gap: 0.35em;
 }
 
-.article-meta .card-arrow {
+.article-meta .card-cta {
+  color: var(--color-primary);
+  font-weight: 700;
+  font-size: 0.9rem;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  background-color: var(--color-primary);
-  color: #fff;
-  font-size: 1rem;
-  line-height: 1;
-  transition: transform var(--transition-base), background-color var(--transition-base);
+  gap: 0.3em;
+  transition: color var(--transition-base);
 }
 
-.carousel-card:hover .card-arrow,
-.article-card:hover .card-arrow,
-.carousel-card:focus-visible .card-arrow,
-.article-card:focus-visible .card-arrow {
-  transform: translateX(3px);
-  background-color: var(--color-accent);
+.article-meta .card-cta .arrow {
+  display: inline-block;
+  transition: transform var(--transition-base);
+}
+
+.carousel-card:hover .card-cta,
+.article-card:hover .card-cta,
+.carousel-card:focus-visible .card-cta,
+.article-card:focus-visible .card-cta {
+  color: var(--color-accent);
+}
+
+.carousel-card:hover .card-cta .arrow,
+.article-card:hover .card-cta .arrow,
+.carousel-card:focus-visible .card-cta .arrow,
+.article-card:focus-visible .card-cta .arrow {
+  transform: translateX(4px);
 }
 
 /* Footer */
