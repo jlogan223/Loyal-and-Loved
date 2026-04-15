@@ -385,8 +385,14 @@ nav a:hover {
 }
 
 .carousel-viewport {
-  overflow: hidden;
+  /* Clip slides horizontally as they transform, but leave vertical
+     overflow visible so the card hover-lift and box-shadow aren't
+     cut off at the top or bottom edge. */
+  overflow-x: clip;
+  overflow-y: visible;
   position: relative;
+  padding: 8px 4px 24px;
+  margin: -8px -4px -24px;
 }
 
 .carousel-track {
