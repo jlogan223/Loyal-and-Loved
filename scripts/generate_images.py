@@ -39,9 +39,10 @@ load_dotenv(ROOT / ".env")
 # we use that scene verbatim instead of the generic style template.
 try:
     sys.path.insert(0, str(Path(__file__).resolve().parent))
-    from prompts import ARTICLE_PROMPTS, GLOBAL_RULES  # type: ignore
+    from prompts import ARTICLE_PROMPTS, BODY_PROMPTS, GLOBAL_RULES  # type: ignore
 except Exception:
     ARTICLE_PROMPTS = {}
+    BODY_PROMPTS = {}
     GLOBAL_RULES = ""
 
 # Brand-aligned style prompts. These get prepended to each description.
@@ -83,9 +84,19 @@ def build_prompt(entry: dict) -> str:
       2. Generic style template + placeholder description + global rules.
     """
     slug = entry.get("article_slug", "")
-    # Hero images get the curated treatment when available.
-    if entry.get("position") == 1 and slug in ARTICLE_PROMPTS:
+    position = entry.get("position", 0)
+    # Hero images (tier 1/2 and category heroes tier 4) get the curated
+    # treatment when available — all keyed by slug with position == 1.
+    if position == 1 and slug in ARTICLE_PROMPTS:
         return ARTICLE_PROMPTS[slug]
+
+    # Body images (tier 3, position >= 2) may have a bespoke scene keyed
+    # by "{slug}-pos{position}" for high-risk compositions (brand logos,
+    # documents, charts, packaging) — anywhere garbled text would betray
+    # AI generation. Fall back to the generic template otherwise.
+    body_key = f"{slug}-pos{position}"
+    if body_key in BODY_PROMPTS:
+        return BODY_PROMPTS[body_key]
 
     style = entry["style"]
     desc = entry["description"]

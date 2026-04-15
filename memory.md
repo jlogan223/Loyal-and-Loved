@@ -1,0 +1,79 @@
+# Loyal & Loved — Session Memory
+
+## Session 2026-04-15 (tier 3 + tier 4 image generation)
+
+### Plan for this round
+- User confirmed the 15 new high-quality hero images are much better. Greenlit tier 3 (34 body images) + tier 4 (6 category heroes).
+- Added 6 curated category hero prompts (pet-insurance, health-vet-care, food-nutrition, training-behaviour, gear-tech, breed-guides) as flat pastel illustrations in the brand palette.
+- Added BODY_PROMPTS dict with 34 curated body-image scenes keyed by `{slug}-pos{position}`. Every one rewritten to avoid garbled text: brand-logo comparisons → abstract pastel panels; documents → blank cream paper; charts → abstract bars; packaging → unlabelled cream containers; phone screens → angled away.
+- Extended build_prompt() to check BODY_PROMPTS for body images.
+- Dry-run confirmed all 40 entries resolve to curated prompts.
+
+### Generation run
+- Cost estimate: ~$6.68 at high quality (40 × $0.167)
+- Time estimate: ~33 minutes (50s × 40)
+- Running in background, will push once complete.
+
+## Session 2026-04-14 (continued — card CTA + character roster)
+
+### What changed this round (commit 583048a)
+1. **Card CTA is now text, not a circle**: replaced `.card-arrow` (teal circle with arrow inside) with `.card-cta` — "Read →" in teal plain text, same colour as the old circle. Arrow animates a few px right on hover; text shifts to accent purple on hover. Same treatment on every carousel and article card.
+2. **Character roster in scripts/prompts.py**: 20 pets (Luna Golden, Milo Cockapoo, Bear Bernese, Willow Border Collie, Finn Frenchie, Poppy Dachshund, Rufus Lab, Daisy Springer, Max JRT, Rosie Cavalier, plus Oscar/Bella/Whiskers/Luna-Rose/Tigger/Pepper cats, Kiwi budgie, Thumper rabbit, Shadow horse, Sunny gpig) and 10 UK owners (Sarah 30s, James 40s, Emma late 20s, Michael 60s, Priya 30s, Daniel late 20s, Lucy 40s, Oliver 50s, Chloe early 20s, Hannah vet). Each character has a tight distinctive description so gpt-image-1 can reliably render the same character twice.
+3. **Curated per-article scene prompts**: every one of the 15 article heroes now has a hand-written scene in `ARTICLE_PROMPTS`. vet-bills-uk = Bear the Bernese puppy with bandaged paw and soft recovery cone in a warm vet room. pet-insurance-cost-uk = Sarah at kitchen table with Luna resting her chin on the edge. best-dog-gps-tracker-uk = Bear mid-stride through a British meadow with a featureless tracker on his collar. emergency-vet-costs-uk = Daisy lying calmly on exam table with bandaged front leg and Hannah the vet's hand resting on her. etc. Registry is in `/scripts/prompts.py`.
+4. **Default quality raised medium → high** in generate_images.py. At 1024x1024, gpt-image-1 "high" is ~$0.167/img (~$2.50 per 15 heroes). `--quality medium` still available for cheaper reruns.
+5. **Text rules tightened** in GLOBAL_RULES: explicitly covers packaging, screens, collars, and signage. If any text would naturally appear, render as blank/abstract with no letters.
+6. **Regenerated all 15 article heroes** at high quality using curated scenes. ~13 minutes to generate (762s for the batch).
+
+### Confirmation on image model
+- We are using **gpt-image-1** (OpenAI's current multimodal image model, launched April 2025, the one that powers ChatGPT's native image generation).
+- NOT DALL·E 3 (which remains available as a separate endpoint but is older and worse at photorealism, character consistency, and text rendering).
+
+### What's deployed on GitHub main (commit 583048a)
+- Homepage cards use "Read →" text CTA instead of arrow circle
+- 15 fresh high-quality article hero images under images/articles/<slug>/hero.png
+- scripts/prompts.py with full character roster + article prompt library
+- generate_images.py wired to prefer curated prompts with medium/high/low CLI toggle
+
+### Cost tally
+- Round 1 (deleted): 16 images medium ≈ $0.64
+- Round 2 (deleted): 15 images medium ≈ $0.60
+- Round 3 (current): 15 images high ≈ $2.50
+- **Running total: ~$3.75**
+
+### Outstanding / next steps
+1. **Justin purges Cloudflare cache** so the new index + heroes go live immediately
+2. Evaluate the 15 new heroes — any still with garbled lettering or wrong composition can be regenerated individually by editing that scene in `scripts/prompts.py` then running `python3 scripts/generate_images.py --tiers 2 --force` (or use `--limit 1` plus a slug filter if we add one)
+3. **Category pages** still show a single hardcoded placeholder card — need dynamic article listings using LNL_ARTICLES registry with the new clickable card pattern
+4. **Article pages (15 files)** still have `[IMAGE: ...]` body-image placeholders (34 tier-3 images, ~$5.70 at high, ~$1.30 at medium)
+5. **Tier 4 category heroes** still pending (6 images)
+6. Run `replace_placeholders.py --apply` on article pages once body images are ready
+
+### Decisions locked this session
+- Card CTA: "Read →" teal text, not a circle
+- Image model: gpt-image-1 (confirmed)
+- Default quality: high
+- Character roster lives in scripts/prompts.py — reuse across articles
+- Per-article prompts must match emotional register (bandaged puppy for vet bills, content pet on sofa for insurance, etc.)
+- Global no-text rule applies to packaging/screens/collars/signage too
+
+### Pitfalls
+- gpt-image-1 can still produce slightly-off text at high quality — the "no text" clause is doubled up (in STYLE_PROMPTS and GLOBAL_RULES) because belt-and-braces is needed
+- Generation at high quality is slower: ~50s per image vs ~20s at medium
+
+## Prior session context (from earlier memory)
+
+### Repo structure
+All site files at repo root (main branch). GitHub Pages + Cloudflare. Previously stuck in `Loyal-and-Loved-FIXED/` subfolder; fixed earlier.
+
+### Git workflow
+- Local mount has jammed `.git/index.lock` (FUSE bindfs blocks unlink)
+- Workaround: fresh clone at `/sessions/elegant-intelligent-mayer/push-clone/` — copy files in, commit, push from there. PAT embedded in remote URL so pushes work from sandbox.
+
+### API key
+OpenAI project key lives in `.env` in repo root. Current key ends `...Jhf6gA`. `.env` is gitignored.
+
+### Carousel
+5 slides, 3 visible desktop / 2 tablet / 1 mobile, auto-advance 5s.
+
+### Hero banner
+`linear-gradient(135deg, rgba(24,145,129,0.3), rgba(138,68,243,0.3))` — pastel teal → purple at 30% opacity.
