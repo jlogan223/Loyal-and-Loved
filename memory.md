@@ -1,5 +1,61 @@
 # Loyal & Loved — Session Memory
 
+## Session 2026-04-15 (continued — site-wide cleanup)
+
+### Issues the user flagged
+1. health-vet-care, food-nutrition, training-behaviour, gear-tech all
+   had `TITLE_PLACEHOLDER` in the `<title>`, breadcrumb, and `<h1>`.
+2. Home page carousel cards were being clipped on the sides and bottom
+   (hover-lift + box-shadow cut by `.carousel-viewport { overflow: hidden }`).
+3. Every category page had a single hardcoded `<h3>Article Title</h3>` /
+   `<p>Article excerpt...</p>` placeholder card with `href="#"`. Real
+   articles existed under `articles/` (all 15) but weren't listed.
+4. Old 'Pet & Proud' brand still in category and article footers /
+   bylines / copyright lines.
+
+### Fix approach (scripts/fix_site.py, idempotent, dry-run by default)
+- Parses `window.LNL_ARTICLES` out of `js/articles.js` (strips // comments,
+  quotes bare keys, drops trailing commas, then `json.loads`).
+- For each `category/*.html`:
+    - Swaps `TITLE_PLACEHOLDER` → `&amp;`.
+    - Rebuilds `<div class="article-grid category-articles">...</div>`
+      with real `<a class="article-card fade-in">` for every article in
+      that category, reusing the homepage card pattern (hero image from
+      `images/articles/{slug}/hero.png`, title, excerpt, read time,
+      `Read →` CTA).
+    - Replaces stale `Pet & Proud` branding.
+- For each `articles/*.html`:
+    - Just the branding fix.
+- For `css/style.css`:
+    - `.carousel-viewport` now uses `overflow-x: clip; overflow-y: visible;`
+      plus `padding: 8px 4px 24px; margin: -8px -4px -24px;` so the
+      hover-lift (translateY -4px) and `box-shadow` on the cards have
+      room to bleed without being clipped. Horizontal clipping is
+      preserved so transform-based slide transitions still work.
+
+### Article distribution (from LNL_ARTICLES)
+- pet-insurance: 4 (best-pet-insurance-uk, pet-insurance-cost-uk, lifetime-vs-annual-pet-insurance, best-cat-insurance-uk)
+- health-vet-care: 6 (vet-bills-uk, flea-tick-worm-protection, pet-dental-care, senior-dog-care, emergency-vet-costs-uk, indoor-vs-outdoor-cats)
+- food-nutrition: 1 (best-fresh-dog-food-uk)
+- gear-tech: 1 (best-dog-gps-tracker-uk)
+- training-behaviour: 1 (puppy-first-year-checklist)
+- breed-guides: 2 (cost-of-owning-dog-uk, cockapoo-cost-uk)
+
+### Verification
+- 0 `TITLE_PLACEHOLDER` remaining
+- 0 `Pet & Proud` strings remaining in live files
+- Every category-page `href` and every homepage `href` resolves to an
+  existing `articles/<slug>.html` file
+
+### Pushed
+- **0a3a451** — 22 files touched (13 articles, 6 category pages,
+  style.css, fix_site.py, memory.md). 563 insertions / 130 deletions.
+
+### Outstanding
+- Justin purges Cloudflare cache so the changes go live
+- Visual QA on the home carousel (does the hover-lift now show cleanly?)
+- Visual QA on each category page
+
 ## Session 2026-04-15 (tier 3 + tier 4 image generation)
 
 ### Plan for this round
