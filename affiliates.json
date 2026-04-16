@@ -414,6 +414,20 @@
       "notes": "Direct partner programme via animalfriends.co.uk/partner-up-with-us/ — not self-service. Relationship-driven onboarding."
     },
 
+    "petplan": {
+      "displayName": "Petplan",
+      "network": "awin",
+      "merchantId": "3058",
+      "status": "blocked",
+      "appliedDate": null,
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["pet-insurance"],
+      "assetFolder": null,
+      "merchantHome": "https://www.petplan.co.uk/",
+      "notes": "Programme 3058 unreachable as of 2026-04-16 — Awin search returns nothing, website does not load, email addresses bounce. May be invitation-only or suspended. Blocked until a contact route is found."
+    },
+
     "amazon-uk": {
       "displayName": "Amazon UK",
       "network": "amazon",
