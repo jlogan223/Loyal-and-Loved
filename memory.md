@@ -1,5 +1,62 @@
 # Loyal & Loved — Session Memory
 
+## Session 2026-04-16 (placeholder audit + affiliate list)
+
+### What user asked for
+1. Go through every page — audit every remaining placeholder on the site and report back.
+2. Provide a list of affiliates to apply to now that the site is live.
+
+### Placeholder audit findings (LIVE files only, excluding Loyal-and-Loved-FIXED archive)
+
+**Category A: Related-articles cards at the bottom of every article (45 broken images)**
+- 15 articles × 3 cards = 45 `<img>` tags pointing at non-existent `../images/placeholder*.jpg` paths
+- Paths used: `placeholder.jpg`, `placeholder-insurance.jpg`, `placeholder-cost.jpg`, `placeholder-vet.jpg`, `placeholder-policy.jpg`, `placeholder-puppy.jpg`, `placeholder-lifetime.jpg`, `placeholder-indoor.jpg`
+- Links inside the cards (`<a href=...>`) DO resolve correctly — only the images are broken
+- Alt text literally reads "Placeholder: ..." on several
+
+**Category B: Sidebar Table of Contents dead anchors (30 bad links across 14 articles)**
+- Every article sidebar has hardcoded `<a href="#section1">Main Content</a>` / `<a href="#section2">More Info</a>`
+- Neither anchor exists in the HTML — they jump to top of page
+- Real section IDs exist in each article (`#intro`, `#routine-costs`, `#takeaway`, etc.) and aren't linked
+- Count by article: most have 2, best-pet-insurance-uk + best-dog-gps-tracker-uk + best-cat-insurance-uk have extra
+
+**Category C: "Link Coming Soon" affiliate placeholders (15 across 5 articles)**
+- best-pet-insurance-uk: 4 (Petplan, Animal Friends, Bought By Many, ManyPets — all "Get Quote")
+- best-cat-insurance-uk: 4 (Petplan Cat, Bought By Many Cat, ManyPets Cat, Animal Friends Cat)
+- best-dog-gps-tracker-uk: 4 (PitPat Activity Tracker, Tractive GPS Tracker ×2, PitPat at Pets at Home)
+- flea-tick-worm-protection: 2 (Vet-UK Parasite Treatments, Pets at Home Flea & Tick Range)
+- cockapoo-cost-uk: 1 (Compare Pet Insurance for Cockapoos)
+
+**Category D: Registry `heroImage` / `thumbnailImage` fields in js/articles.js (30 stale paths)**
+- All 15 entries have placeholder paths like `images/placeholder-insurance-comparison.jpg`
+- NOT CURRENTLY RENDERED — no consumer reads these fields
+- Dead weight in the registry; can be left or cleaned up
+- `getRelatedArticles()` helper exists but is never called — related-articles sections are hardcoded per-article
+
+**Category E: Registry `affiliateLinks` fields (all empty strings)**
+- Every article has an `affiliateLinks: { "Brand": "" }` block with URLs left blank
+- Not rendered anywhere either — dormant
+
+**Category F: Privacy policy**
+- privacy-policy.html line 192: `contact@loyalandloved.co.uk (placeholder)` — address not yet created
+
+### Scope totals
+- 45 broken related-articles images
+- ~30 dead sidebar ToC anchors
+- 15 "Link Coming Soon" affiliate buttons visible to users
+- 30 stale registry image paths (not rendered)
+- 15 empty affiliate URL slots (not rendered)
+- 1 placeholder contact email
+
+### Decision for fix approach
+1. Rewrite related-articles sections via fix_site.py to use hero images from `images/articles/{slug}/hero.png` and real title/excerpt from LNL_ARTICLES registry
+2. Rewrite sidebar ToCs to reflect actual `<section id="...">` anchors in each article
+3. Leave "Link Coming Soon" buttons alone until Justin has real affiliate URLs — will swap once applications approved
+4. Decide whether to clean up registry fields later (dormant, low priority)
+5. Create contact@loyalandloved.co.uk mailbox (Justin's task)
+
+### Affiliate application list delivered separately — see response text
+
 ## Session 2026-04-15 (continued — site-wide cleanup)
 
 ### Issues the user flagged

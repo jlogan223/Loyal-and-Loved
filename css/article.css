@@ -55,31 +55,40 @@
   color: var(--color-text-secondary);
 }
 
-/* Hero image */
+/* Hero image
+ * All generated article images are 1024x1024 (1:1). The previous
+ * 400px fixed height + object-fit: cover cropped ~280px off the top
+ * and bottom of every image, which was killing the subject (e.g.,
+ * the dog in cost-of-owning-dog-uk). We now use aspect-ratio: 1/1
+ * on a max-width container with object-fit: contain so the full
+ * image is always visible. The brand gradient shows as a subtle
+ * frame if the image ever fails to load. */
 .article-hero {
   width: 100%;
-  height: 400px;
+  max-width: 640px;
+  aspect-ratio: 1 / 1;
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
   border-radius: var(--radius-lg);
-  margin-bottom: var(--spacing-2xl);
+  margin: 0 auto var(--spacing-2xl);
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   text-align: center;
-  padding: var(--spacing-lg);
+  padding: 0;
   position: relative;
   font-size: 0.95rem;
 
   @media (max-width: 768px) {
-    height: 250px;
+    max-width: 100%;
   }
 
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    display: block;
   }
 }
 
@@ -193,10 +202,15 @@ article pre code {
   color: var(--color-text);
 }
 
-/* Image placeholders */
+/* Image placeholders (inline body images)
+ * Same treatment as .article-hero — the 1:1 generated images were
+ * being clipped by the old 300px fixed-height cover crop. Now an
+ * aspect-ratio 1/1 box, capped at 520px, centered in the article
+ * column, with object-fit: contain. */
 .image-placeholder {
   width: 100%;
-  height: 300px;
+  max-width: 520px;
+  aspect-ratio: 1 / 1;
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
   border-radius: var(--radius-lg);
   display: flex;
@@ -204,19 +218,20 @@ article pre code {
   justify-content: center;
   color: white;
   text-align: center;
-  padding: var(--spacing-lg);
-  margin: var(--spacing-lg) 0;
+  padding: 0;
+  margin: var(--spacing-lg) auto;
   font-size: 0.95rem;
 
   @media (max-width: 768px) {
-    height: 200px;
+    max-width: 100%;
   }
 
   img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: var(--radius-lg);
+    display: block;
   }
 }
 
@@ -401,9 +416,12 @@ article pre code {
 
   img {
     width: 100%;
-    height: 150px;
+    aspect-ratio: 1 / 1;
+    height: auto;
     object-fit: cover;
+    object-position: center 55%;
     background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+    display: block;
   }
 
   .card-content {
