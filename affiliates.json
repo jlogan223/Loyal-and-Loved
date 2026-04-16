@@ -4,7 +4,7 @@
 
   "publisher": {
     "awin_publisher_id": "2840082",
-    "amazon_associates_tag": "pinaffacc-21",
+    "amazon_associates_tag": "pinaffacc-landl-21",
     "impact_account_id": "REPLACE_WITH_YOUR_IMPACT_ACCOUNT_ID"
   },
 
@@ -424,7 +424,7 @@
       "categories": ["food-nutrition", "gear-tech", "vet-care", "training-behaviour", "breed-guides"],
       "assetFolder": null,
       "merchantHome": "https://www.amazon.co.uk/",
-      "notes": "Universal catch-all. 24-hour cookie. Tag pinaffacc-21."
+      "notes": "Universal catch-all. 24-hour cookie. Tag pinaffacc-landl-21."
     }
   }
 }
