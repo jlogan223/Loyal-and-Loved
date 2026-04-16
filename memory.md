@@ -1,5 +1,22 @@
 # Loyal & Loved — Session Memory
 
+## Backlog (not urgent)
+
+- [ ] **Create `contact@loyalandloved.co.uk` mailbox** (or swap the address on
+      privacy-policy.html to something real). Currently the line reads
+      "contact@loyalandloved.co.uk (placeholder)". Low priority — tidy up
+      before any press / partnerships outreach.
+- [ ] Swap "Link Coming Soon" spans for real affiliate deep-links once
+      each Awin/Impact application is approved. Full programme-by-programme
+      guide lives in `AFFILIATE_APPLICATIONS.md`.
+- [ ] Rewrite pet-insurance-cost-uk's custom sidebar ("Money Saving Tips"
+      widget currently has three dead `#save-money` / `#age-pricing` /
+      `#lifetime-vs-annual` anchors). Separate from the Quick Links fix
+      shipped in d249826.
+- [ ] Clean up stale `heroImage` / `thumbnailImage` / empty `affiliateLinks`
+      fields in `js/articles.js`. Dormant (nothing currently reads them) but
+      noisy. Low priority.
+
 ## Session 2026-04-16 (placeholder audit + affiliate list)
 
 ### What user asked for
