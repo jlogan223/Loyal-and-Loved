@@ -1,0 +1,430 @@
+{
+  "_comment": "Single source of truth for every affiliate programme Loyal & Loved works with. Merchant IDs are public (they appear in every tracking URL). The Awin API token is secret and lives in affiliate-secrets.json (gitignored), NOT here. When a pending brand is approved, flip status to 'approved' and set approvedDate.",
+  "_updated": "2026-04-16",
+
+  "publisher": {
+    "awin_publisher_id": "2840082",
+    "amazon_associates_tag": "pinaffacc-21",
+    "impact_account_id": "REPLACE_WITH_YOUR_IMPACT_ACCOUNT_ID"
+  },
+
+  "networks": {
+    "awin": {
+      "linkTemplate": "https://www.awin1.com/cread.php?awinmid={{MERCHANT_ID}}&awinaffid={{PUBLISHER_ID}}&ued={{TARGET}}",
+      "clickrefParam": "clickref"
+    },
+    "amazon": {
+      "linkTemplate": "{{TARGET}}?tag={{TAG}}",
+      "note": "Amazon rewrites existing tag if present; helper handles that."
+    },
+    "impact": {
+      "linkTemplate": "{{BRAND_TRACKING_BASE}}?u1={{CLICKREF}}&subid1={{TARGET}}",
+      "note": "Each Impact brand has its own tracking base URL — stored per-brand below."
+    },
+    "direct": {
+      "note": "Brand-specific template stored on each brand record as directLinkTemplate."
+    }
+  },
+
+  "brands": {
+
+    "omlet": {
+      "displayName": "Omlet",
+      "network": "awin",
+      "merchantId": "76702",
+      "status": "approved",
+      "approvedDate": "2026-04-16",
+      "commission": "5% (ex. VAT)",
+      "cookieDays": 60,
+      "categories": ["gear-tech"],
+      "assetFolder": "/images/affiliates/omlet/",
+      "merchantHome": "https://www.omlet.co.uk/",
+      "notes": "60-day cookie is unusually long — worth featuring in long-form guides (chicken coops, dog crates, beds, runs). Use Link Builder in Awin Toolbox or the automated helper."
+    },
+
+    "aatu": {
+      "displayName": "AATU Dog & Cat Food",
+      "network": "awin",
+      "merchantId": "17135",
+      "status": "approved",
+      "approvedDate": "2026-04-16",
+      "commission": "10%",
+      "cookieDays": 30,
+      "categories": ["food-nutrition"],
+      "assetFolder": "/images/affiliates/aatu/",
+      "merchantHome": "https://www.aatu.co.uk/",
+      "notes": "Grain-free premium — pair with Edgard & Cooper in comparison content."
+    },
+
+    "barking-heads": {
+      "displayName": "Barking Heads & Meowing Heads",
+      "network": "awin",
+      "merchantId": "15852",
+      "status": "approved",
+      "approvedDate": "2026-04-13",
+      "commission": "per-sale",
+      "cookieDays": 30,
+      "categories": ["food-nutrition"],
+      "assetFolder": "/images/affiliates/barking-heads/",
+      "merchantHome": "https://www.barkingheads.co.uk/",
+      "ethicsFlag": "amber_no_cruelty_free_claim",
+      "disclosure": "Per-product verification required before describing any line as 'cruelty-free'. Partial PETA listing, FEDIAF compliance not explicit.",
+      "notes": "Amber flag — see LL_DECISIONS.md."
+    },
+
+    "butternut-box": {
+      "displayName": "Butternut Box",
+      "network": "impact",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["food-nutrition"],
+      "assetFolder": "/images/affiliates/butternut-box/",
+      "merchantHome": "https://butternutbox.com/",
+      "impactTrackingBase": null,
+      "notes": "Impact.com, not Awin. Ambassador programme path — Justin submitted application answers 2026-04-16."
+    },
+
+    "tails": {
+      "displayName": "Tails.com",
+      "network": "awin",
+      "merchantId": "6074",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["food-nutrition"],
+      "assetFolder": "/images/affiliates/tails/",
+      "merchantHome": "https://tails.com/",
+      "ethicsFlag": "amber_disclose_parent",
+      "disclosure": "Majority-owned by Nestlé Purina since April 2018 — disclose in any recommendation.",
+      "notes": "Amber flag — see LL_DECISIONS.md."
+    },
+
+    "pure-pet-food": {
+      "displayName": "Pure Pet Food",
+      "network": "awin",
+      "merchantId": "28012",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["food-nutrition"],
+      "assetFolder": "/images/affiliates/pure-pet-food/",
+      "merchantHome": "https://www.purepetfood.com/"
+    },
+
+    "pitpat": {
+      "displayName": "PitPat",
+      "network": "awin",
+      "merchantId": "43513",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["gear-tech"],
+      "assetFolder": "/images/affiliates/pitpat/",
+      "merchantHome": "https://www.pitpat.com/"
+    },
+
+    "your-pet-nutrition": {
+      "displayName": "Your Pet Nutrition UK",
+      "network": "awin",
+      "merchantId": "123532",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["food-nutrition"],
+      "assetFolder": "/images/affiliates/your-pet-nutrition/",
+      "merchantHome": "https://yourpetnutrition.co.uk/"
+    },
+
+    "scruffs": {
+      "displayName": "Scruffs",
+      "network": "awin",
+      "merchantId": "23375",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["gear-tech"],
+      "assetFolder": "/images/affiliates/scruffs/",
+      "merchantHome": "https://www.scruffspetproducts.com/"
+    },
+
+    "pdsa": {
+      "displayName": "PDSA Pet Insurance",
+      "network": "awin",
+      "merchantId": "7028",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["pet-insurance"],
+      "assetFolder": "/images/affiliates/pdsa/",
+      "merchantHome": "https://www.pdsa.org.uk/pet-insurance",
+      "ethicsFlag": "amber_frame_as_commercial",
+      "disclosure": "Frame as a commercial insurance product — PDSA the charity is separate. Readers are buying insurance that funds PDSA's vet work, not donating."
+    },
+
+    "purina": {
+      "displayName": "Purina",
+      "network": "awin",
+      "merchantId": "24465",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["food-nutrition"],
+      "assetFolder": null,
+      "merchantHome": "https://www.purina.co.uk/",
+      "ethicsFlag": "red_do_not_wire",
+      "disclosure": "DO NOT create affiliate links even if approved. See LL_DECISIONS.md — FDA adverse-event reports and active class-action lawsuit.",
+      "notes": "Application held for reference only. Helper function will refuse to build a link for this brand even after approval."
+    },
+
+    "yumove": {
+      "displayName": "YuMOVE",
+      "network": "awin",
+      "merchantId": "17141",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "15%",
+      "cookieDays": null,
+      "categories": ["vet-care"],
+      "assetFolder": "/images/affiliates/yumove/",
+      "merchantHome": "https://www.yumove.co.uk/",
+      "notes": "Highest commission in pet directory — prioritise in senior-dog-care content."
+    },
+
+    "wisdom-panel": {
+      "displayName": "Wisdom Panel UK",
+      "network": "awin",
+      "merchantId": "16376",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "£8 per lead",
+      "cookieDays": null,
+      "categories": ["breed-guides"],
+      "assetFolder": "/images/affiliates/wisdom-panel/",
+      "merchantHome": "https://www.wisdompanel.com/en-gb"
+    },
+
+    "itch-pet": {
+      "displayName": "Itch Pet",
+      "network": "awin",
+      "merchantId": "18115",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "lead-gen",
+      "cookieDays": null,
+      "categories": ["vet-care"],
+      "assetFolder": "/images/affiliates/itch-pet/",
+      "merchantHome": "https://itchpet.com/"
+    },
+
+    "zooplus": {
+      "displayName": "Zooplus.co.uk",
+      "network": "awin",
+      "merchantId": "2940",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "2%",
+      "cookieDays": null,
+      "categories": ["food-nutrition", "gear-tech", "vet-care"],
+      "assetFolder": "/images/affiliates/zooplus/",
+      "merchantHome": "https://www.zooplus.co.uk/",
+      "notes": "Universal retailer fallback for anything without a brand-specific affiliate."
+    },
+
+    "edgard-cooper": {
+      "displayName": "Edgard & Cooper",
+      "network": "awin",
+      "merchantId": "100729",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["food-nutrition"],
+      "assetFolder": "/images/affiliates/edgard-cooper/",
+      "merchantHome": "https://www.edgardcooper.com/en-gb/"
+    },
+
+    "katkin": {
+      "displayName": "KatKin",
+      "network": "awin",
+      "merchantId": "21501",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["food-nutrition"],
+      "assetFolder": "/images/affiliates/katkin/",
+      "merchantHome": "https://katkin.com/"
+    },
+
+    "lilys-kitchen": {
+      "displayName": "Lily's Kitchen",
+      "network": "awin",
+      "merchantId": "7262",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "5%",
+      "cookieDays": null,
+      "categories": ["food-nutrition"],
+      "assetFolder": "/images/affiliates/lilys-kitchen/",
+      "merchantHome": "https://www.lilyskitchen.co.uk/"
+    },
+
+    "bella-duke": {
+      "displayName": "Bella & Duke",
+      "network": "awin",
+      "merchantId": "111046",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["food-nutrition"],
+      "assetFolder": "/images/affiliates/bella-duke/",
+      "merchantHome": "https://www.bellaandduke.com/"
+    },
+
+    "christies-direct": {
+      "displayName": "Christies Direct",
+      "network": "awin",
+      "merchantId": "3379",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "6%",
+      "cookieDays": null,
+      "categories": ["gear-tech"],
+      "assetFolder": "/images/affiliates/christies-direct/",
+      "merchantHome": "https://www.christiesdirect.com/",
+      "notes": "Alignment questionable — professional grooming equipment. Keep if approved, revisit editorial fit."
+    },
+
+    "vetbox": {
+      "displayName": "VetBox",
+      "network": "awin",
+      "merchantId": "34905",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["vet-care"],
+      "assetFolder": "/images/affiliates/vetbox/",
+      "merchantHome": "https://vetbox.co.uk/"
+    },
+
+    "pharm-pet-co": {
+      "displayName": "The Pharm Pet Co.",
+      "network": "awin",
+      "merchantId": "109526",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["vet-care"],
+      "assetFolder": "/images/affiliates/pharm-pet-co/",
+      "merchantHome": "https://www.thepharmpetco.com/"
+    },
+
+    "everypaw": {
+      "displayName": "Everypaw Pet Insurance",
+      "network": "awin",
+      "merchantId": "19162",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["pet-insurance"],
+      "assetFolder": "/images/affiliates/everypaw/",
+      "merchantHome": "https://www.everypaw.com/",
+      "notes": "Justin wants a big editorial push on Everypaw if approved — priority for pet-insurance comparison articles."
+    },
+
+    "coop-pet-insurance": {
+      "displayName": "Co-op Pet Insurance",
+      "network": "awin",
+      "merchantId": "86195",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["pet-insurance"],
+      "assetFolder": "/images/affiliates/coop-pet-insurance/",
+      "merchantHome": "https://www.coop.co.uk/insurance/pet-insurance"
+    },
+
+    "viovet": {
+      "displayName": "Viovet",
+      "network": "awin",
+      "merchantId": "6960",
+      "status": "pending",
+      "appliedDate": "2026-04-16",
+      "commission": "6%",
+      "cookieDays": null,
+      "categories": ["vet-care", "food-nutrition"],
+      "assetFolder": "/images/affiliates/viovet/",
+      "merchantHome": "https://www.viovet.co.uk/",
+      "notes": "Replacement for Vet-UK (no programme)."
+    },
+
+    "manypets": {
+      "displayName": "ManyPets (incl. Bought By Many)",
+      "network": "impact",
+      "status": "not_applied",
+      "appliedDate": null,
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["pet-insurance"],
+      "assetFolder": "/images/affiliates/manypets/",
+      "merchantHome": "https://manypets.com/uk/",
+      "impactTrackingBase": null,
+      "notes": "Apply via Impact.com publisher dashboard once Impact verification completes."
+    },
+
+    "tractive": {
+      "displayName": "Tractive",
+      "network": "impact",
+      "status": "not_applied",
+      "appliedDate": null,
+      "commission": "~$20/sale",
+      "cookieDays": null,
+      "categories": ["gear-tech"],
+      "assetFolder": "/images/affiliates/tractive/",
+      "merchantHome": "https://tractive.com/",
+      "impactTrackingBase": null,
+      "notes": "Apply via Impact.com."
+    },
+
+    "animal-friends": {
+      "displayName": "Animal Friends Pet Insurance",
+      "network": "direct",
+      "status": "not_applied",
+      "appliedDate": null,
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["pet-insurance"],
+      "assetFolder": "/images/affiliates/animal-friends/",
+      "merchantHome": "https://www.animalfriends.co.uk/",
+      "directLinkTemplate": null,
+      "notes": "Direct partner programme via animalfriends.co.uk/partner-up-with-us/ — not self-service. Relationship-driven onboarding."
+    },
+
+    "amazon-uk": {
+      "displayName": "Amazon UK",
+      "network": "amazon",
+      "status": "approved",
+      "approvedDate": "2026-04-13",
+      "commission": "1-10% by category",
+      "cookieDays": 1,
+      "categories": ["food-nutrition", "gear-tech", "vet-care", "training-behaviour", "breed-guides"],
+      "assetFolder": null,
+      "merchantHome": "https://www.amazon.co.uk/",
+      "notes": "Universal catch-all. 24-hour cookie. Tag pinaffacc-21."
+    }
+  }
+}

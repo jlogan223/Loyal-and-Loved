@@ -2,6 +2,9 @@
 .env
 *.env
 !.env.template
+affiliate-secrets.json
+affiliate-secrets.*.json
+!affiliate-secrets.template.json
 
 # Python
 __pycache__/
