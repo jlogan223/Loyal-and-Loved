@@ -6,7 +6,11 @@
   display: grid;
   grid-template-columns: 1fr 300px;
   gap: var(--spacing-lg);
-  margin: var(--spacing-2xl) 0;
+  /* Preserve the horizontal auto-centering from .container — using
+     margin: ... 0 here was overriding that and pinning article pages
+     to the left edge. Using `auto` restores centering while keeping
+     the vertical 2xl breathing room. */
+  margin: var(--spacing-2xl) auto;
 
   @media (max-width: 1024px) {
     grid-template-columns: 1fr;
