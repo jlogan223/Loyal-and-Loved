@@ -257,6 +257,91 @@ article pre code {
   margin-bottom: 0;
 }
 
+/* Quick Compare box — placed near top of comparison articles */
+.quick-compare {
+  background-color: var(--color-card-bg);
+  border: 2px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  margin: var(--spacing-lg) 0;
+}
+
+.quick-compare h3 {
+  color: var(--color-accent);
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.15rem;
+}
+
+.quick-compare .compare-subtitle {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+}
+
+.quick-compare-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-md);
+}
+
+.compare-card {
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  text-align: centre;
+}
+
+.compare-card .compare-brand {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: var(--spacing-xs);
+}
+
+.compare-card .compare-detail {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.compare-card .compare-detail:last-of-type {
+  margin-bottom: var(--spacing-sm);
+}
+
+.compare-card .compare-cta {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  text-decoration: none;
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius-md);
+  padding: 6px 14px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.compare-card .compare-cta:hover {
+  background-color: var(--color-accent);
+  color: #fff;
+}
+
+.compare-card .compare-cta.aff-link-pending {
+  border-color: var(--color-border);
+  color: var(--color-text-secondary);
+  cursor: default;
+}
+
+.compare-card .compare-cta.aff-link-pending:hover {
+  background-color: transparent;
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 600px) {
+  .quick-compare-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Table of contents */
 .table-of-contents {
   background-color: var(--color-card-bg);

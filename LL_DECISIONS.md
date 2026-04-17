@@ -38,6 +38,9 @@ _Last updated: 2026-04-16_
 - **"Link Coming Soon" placeholder spans** stay in place until Awin /
   Impact / direct programme is approved for that brand, then swap in the
   deep link.
+- **Verify every target URL before wiring.** Before adding any affiliate
+  link to an article, confirm via WebFetch that the target page actually
+  exists and returns 200. No guessing URLs from brand site structure.
 
 ## Ethics flags (hard rules)
 

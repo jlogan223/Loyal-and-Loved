@@ -129,16 +129,18 @@
     },
 
     "your-pet-nutrition": {
-      "displayName": "Your Pet Nutrition UK",
+      "displayName": "Your Pet Nutrition",
       "network": "awin",
       "merchantId": "123532",
-      "status": "pending",
+      "status": "approved",
       "appliedDate": "2026-04-16",
+      "approvedDate": "2026-04-17",
       "commission": "tbc",
       "cookieDays": null,
       "categories": ["food-nutrition"],
       "assetFolder": "/images/affiliates/your-pet-nutrition/",
-      "merchantHome": "https://yourpetnutrition.co.uk/"
+      "merchantHome": "https://yourpetnutrition.com/",
+      "notes": "Domain redirects .co.uk → .com. Vet-formulated pet supplements (Canine Prime, Feline 40). Use .com URLs in affiliate links."
     },
 
     "scruffs": {
