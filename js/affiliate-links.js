@@ -125,9 +125,9 @@
               a.setAttribute('aria-disabled', 'true');
               a.classList.remove('aff-link-live');
               a.classList.add('aff-link-pending');
-              if (!a.getAttribute('href') || a.getAttribute('href') === '#placeholder') {
-                a.setAttribute('href', '#');
-              }
+              a.removeAttribute('href');
+              a.style.cursor = 'default';
+              a.addEventListener('click', function (e) { e.preventDefault(); });
             }
           });
       });
