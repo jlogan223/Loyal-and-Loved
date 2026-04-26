@@ -430,6 +430,34 @@
       "notes": "Programme 3058 unreachable as of 2026-04-16 — Awin search returns nothing, website does not load, email addresses bounce. May be invitation-only or suspended. Blocked until a contact route is found."
     },
 
+    "sykes-cottages": {
+      "displayName": "Sykes Holiday Cottages",
+      "network": "awin",
+      "merchantId": "3317",
+      "status": "pending",
+      "appliedDate": "2026-04-26",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["travel"],
+      "assetFolder": "/images/affiliates/sykes-cottages/",
+      "merchantHome": "https://www.sykescottages.co.uk/",
+      "notes": "13,725 pet-friendly cottages UK & Ireland. Deep-link to /pet-friendly-cottages.html for dog-friendly collection."
+    },
+
+    "snaptrip": {
+      "displayName": "Snaptrip",
+      "network": "awin",
+      "merchantId": "10811",
+      "status": "pending",
+      "appliedDate": "2026-04-26",
+      "commission": "tbc",
+      "cookieDays": null,
+      "categories": ["travel"],
+      "assetFolder": "/images/affiliates/snaptrip/",
+      "merchantHome": "https://www.snaptrip.com/",
+      "notes": "36,000+ properties. Deep-link to /holiday-cottages/dog-friendly for pet collection."
+    },
+
     "amazon-uk": {
       "displayName": "Amazon UK",
       "network": "amazon",

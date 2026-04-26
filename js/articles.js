@@ -81,7 +81,24 @@ window.LNL_ARTICLES = [
     }
   },
 
-  // HEALTH & VET CARE (5 articles)
+  // HEALTH & VET CARE (6 articles)
+  {
+    id: "where-to-buy-pet-prescriptions-online-uk",
+    title: "Where to Buy Pet Prescriptions Online UK: Cheapest Pharmacies Compared (2026)",
+    slug: "where-to-buy-pet-prescriptions-online-uk",
+    category: "health-vet-care",
+    excerpt: "Compare the UK's best online pet pharmacies for prescription medicines, flea treatments and wormers. Legal requirements, pricing, and how to save up to 70% vs your vet.",
+    author: "Loyal &amp; Loved Team",
+    date: "2026-04-26",
+    readTime: "14 min read",
+    featured: true,
+    heroImage: "images/articles/where-to-buy-pet-prescriptions-online-uk/hero.png",
+    thumbnailImage: "images/articles/where-to-buy-pet-prescriptions-online-uk/hero.png",
+    affiliateLinks: {
+      "The Pharm Pet Co": "",
+      "Amazon UK": ""
+    }
+  },
   {
     id: "vet-bills-uk",
     title: "Vet Bills UK — What Should You Expect to Pay?",
@@ -203,7 +220,92 @@ window.LNL_ARTICLES = [
     }
   },
 
-  // GEAR & TECH (1 article)
+  // GEAR & TECH (6 articles — includes travel/cottage guides)
+  {
+    id: "best-pet-friendly-holiday-cottages-uk",
+    title: "Best Pet-Friendly Holiday Cottages UK (2026): Dog-Friendly Stays Compared",
+    slug: "best-pet-friendly-holiday-cottages-uk",
+    category: "gear-tech",
+    excerpt: "Compare the UK's best dog-friendly holiday cottages. Fenced gardens, pet policies, provider pricing, and regional picks for Scotland, Lake District, Cornwall, and Wales.",
+    author: "Loyal &amp; Loved Team",
+    date: "2026-04-26",
+    readTime: "15 min read",
+    featured: true,
+    heroImage: "images/articles/best-pet-friendly-holiday-cottages-uk/hero.png",
+    thumbnailImage: "images/articles/best-pet-friendly-holiday-cottages-uk/hero.png",
+    affiliateLinks: {
+      "Sykes Holiday Cottages": "",
+      "Snaptrip": ""
+    }
+  },
+  {
+    id: "dog-friendly-cottages-scotland",
+    title: "Dog-Friendly Cottages Scotland: Best Stays, Walks & Beaches",
+    slug: "dog-friendly-cottages-scotland",
+    category: "gear-tech",
+    excerpt: "Highland retreats, lochside cottages, and empty beaches. The best dog-friendly stays in Scotland with walks, pubs, and booking tips.",
+    author: "Loyal &amp; Loved Team",
+    date: "2026-04-26",
+    readTime: "10 min read",
+    featured: false,
+    heroImage: "images/articles/dog-friendly-cottages-scotland/hero.png",
+    thumbnailImage: "images/articles/dog-friendly-cottages-scotland/hero.png",
+    affiliateLinks: {
+      "Sykes Holiday Cottages": "",
+      "Snaptrip": ""
+    }
+  },
+  {
+    id: "dog-friendly-cottages-lake-district",
+    title: "Dog-Friendly Cottages Lake District: Fells, Lakes & Cosy Pubs",
+    slug: "dog-friendly-cottages-lake-district",
+    category: "gear-tech",
+    excerpt: "Fell walks, lakeside trails, and dog-friendly pubs with fires. The best pet-friendly stays in the Lake District.",
+    author: "Loyal &amp; Loved Team",
+    date: "2026-04-26",
+    readTime: "10 min read",
+    featured: false,
+    heroImage: "images/articles/dog-friendly-cottages-lake-district/hero.png",
+    thumbnailImage: "images/articles/dog-friendly-cottages-lake-district/hero.png",
+    affiliateLinks: {
+      "Sykes Holiday Cottages": "",
+      "Snaptrip": ""
+    }
+  },
+  {
+    id: "dog-friendly-cottages-cornwall",
+    title: "Dog-Friendly Cottages Cornwall: Coastal Paths & Sandy Beaches",
+    slug: "dog-friendly-cottages-cornwall",
+    category: "gear-tech",
+    excerpt: "Year-round dog beaches, coastal path walks, and the best pet-friendly stays in Cornwall.",
+    author: "Loyal &amp; Loved Team",
+    date: "2026-04-26",
+    readTime: "10 min read",
+    featured: false,
+    heroImage: "images/articles/dog-friendly-cottages-cornwall/hero.png",
+    thumbnailImage: "images/articles/dog-friendly-cottages-cornwall/hero.png",
+    affiliateLinks: {
+      "Sykes Holiday Cottages": "",
+      "Snaptrip": ""
+    }
+  },
+  {
+    id: "dog-friendly-cottages-wales",
+    title: "Dog-Friendly Cottages Wales: Mountains, Coast & Countryside",
+    slug: "dog-friendly-cottages-wales",
+    category: "gear-tech",
+    excerpt: "Snowdonia peaks, Pembrokeshire beaches, and Brecon Beacons waterfalls. The best dog-friendly cottage stays in Wales.",
+    author: "Loyal &amp; Loved Team",
+    date: "2026-04-26",
+    readTime: "10 min read",
+    featured: false,
+    heroImage: "images/articles/dog-friendly-cottages-wales/hero.png",
+    thumbnailImage: "images/articles/dog-friendly-cottages-wales/hero.png",
+    affiliateLinks: {
+      "Sykes Holiday Cottages": "",
+      "Snaptrip": ""
+    }
+  },
   {
     id: "best-dog-gps-tracker-uk",
     title: "Best Dog GPS Tracker UK: PitPat vs Tractive vs Apple AirTag",
