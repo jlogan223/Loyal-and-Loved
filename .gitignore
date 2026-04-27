@@ -2,9 +2,15 @@
 .env
 *.env
 !.env.template
+!Automation/.env.template
+Automation/config.json
+!Automation/config.template.json
 affiliate-secrets.json
 affiliate-secrets.*.json
 !affiliate-secrets.template.json
+
+# Node
+Automation/node_modules/
 
 # Python
 __pycache__/
