@@ -274,9 +274,9 @@
       "displayName": "Snaptrip",
       "network": "awin",
       "merchantId": "10811",
-      "status": "rejected",
+      "status": "approved",
       "merchantHome": "https://www.snaptrip.com/",
-      "commission": "",
+      "commission": "3-6.2%",
       "cookieDays": 30
     }
   }
