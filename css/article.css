@@ -116,6 +116,14 @@
   }
 }
 
+.author-byline {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  font-style: italic;
+  margin-top: var(--spacing-sm);
+  margin-bottom: 0;
+}
+
 .meta-item {
   display: flex;
   align-items: center;
