@@ -5,6 +5,21 @@
  */
 
 window.LNL_ARTICLES = [
+  {
+  id: "dog-anxiety-remedies-uk",
+  title: "Dog Anxiety Remedies UK 2026: Calming Treatments That Actually Work",
+  slug: "dog-anxiety-remedies-uk",
+  category: "health-vet-care",
+  excerpt: "From calming supplements to training techniques, here is a practical UK guide to helping your anxious dog feel safe and settled.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-05-02",
+  readTime: "11 min read",
+  featured: false,
+  heroImage: "images/articles/dog-anxiety-remedies-uk/hero.png",
+  thumbnailImage: "images/articles/dog-anxiety-remedies-uk/hero.png",
+  affiliateLinks: {}
+},
+
   // PET INSURANCE (4 articles)
   {
     id: "best-pet-insurance-uk",
