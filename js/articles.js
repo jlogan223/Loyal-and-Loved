@@ -18,6 +18,7 @@ window.LNL_ARTICLES = [
   heroImage: "images/articles/dog-anxiety-remedies-uk/hero.png",
   thumbnailImage: "images/articles/dog-anxiety-remedies-uk/hero.png",
   affiliateLinks: {}
+}
 },
 
   // PET INSURANCE (4 articles)
