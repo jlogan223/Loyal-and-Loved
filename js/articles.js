@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-cat-food-uk",
+  title: "Best Cat Food UK 2026: Wet, Dry and Raw Compared",
+  slug: "best-cat-food-uk",
+  category: "food-nutrition",
+  excerpt: "From budget dry biscuits to premium raw pouches, we rank the best cat foods available in the UK right now.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-05-10",
+  readTime: "12 min read",
+  featured: false,
+  heroImage: "images/articles/best-cat-food-uk/hero.png",
+  thumbnailImage: "images/articles/best-cat-food-uk/hero.png",
+  affiliateLinks: {
+    aatu: ""
+  }
+},
+
+  {
   id: "dog-anxiety-remedies-uk",
   title: "Dog Anxiety Remedies UK 2026: Calming Treatments That Actually Work",
   slug: "dog-anxiety-remedies-uk",
