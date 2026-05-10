@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-cat-litter-uk",
+  title: "Best Cat Litter UK 2026: Clumping, Silica and Biodegradable Tested",
+  slug: "best-cat-litter-uk",
+  category: "gear-tech",
+  excerpt: "We tested clumping, silica and eco litters so you can find the best cat litter for your home and your cat's preferences.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-05-10",
+  readTime: "10 min read",
+  featured: false,
+  heroImage: "images/articles/best-cat-litter-uk/hero.png",
+  thumbnailImage: "images/articles/best-cat-litter-uk/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "best-cat-food-uk",
   title: "Best Cat Food UK 2026: Wet, Dry and Raw Compared",
   slug: "best-cat-food-uk",
