@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-flea-treatment-for-dogs",
+  title: "Best Flea Treatment for Dogs UK 2026: Vet-Approved Options Compared",
+  slug: "best-flea-treatment-for-dogs",
+  category: "health-vet-care",
+  excerpt: "From spot-ons to chewable tablets, here are the most effective flea treatments for dogs available in the UK right now.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-05-10",
+  readTime: "11 min read",
+  featured: false,
+  heroImage: "images/articles/best-flea-treatment-for-dogs/hero.png",
+  thumbnailImage: "images/articles/best-flea-treatment-for-dogs/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "best-cat-litter-uk",
   title: "Best Cat Litter UK 2026: Clumping, Silica and Biodegradable Tested",
   slug: "best-cat-litter-uk",
