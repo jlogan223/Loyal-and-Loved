@@ -54,6 +54,7 @@ window.LNL_ARTICLES = [
   affiliateLinks: {
     aatu: ""
   }
+}
 },
 
   {
