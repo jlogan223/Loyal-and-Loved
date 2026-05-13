@@ -55,6 +55,7 @@ window.LNL_ARTICLES = [
     aatu: ""
   }
 }
+}
 },
 
   {
