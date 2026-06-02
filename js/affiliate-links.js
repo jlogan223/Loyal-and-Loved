@@ -140,3 +140,69 @@
     rewire();
   }
 })();
+
+/* ===========================================================================
+ * PB Eng affiliate click tracking — beacons every successful affiliate click
+ * to the Cloudflare Worker so the dashboard can count clicks per page/brand.
+ * Self-contained IIFE — does not interfere with the rewriter above.
+ * Uses event delegation so it works regardless of when the rewriter finishes.
+ * navigator.sendBeacon is fire-and-forget, so it never blocks the click.
+ * Source of truth: Website Dashboard/cloudflare-worker/tracking-snippet.js
+ * =========================================================================== */
+(function () {
+  'use strict';
+
+  var TRACK_URL = 'https://pb-eng-click-tracker.jlogan223.workers.dev/track';
+  var host = (location.host || '').toLowerCase();
+  var SITE = host.indexOf('loyalandloved') !== -1 ? 'll'
+           : host.indexOf('thesecondincome') !== -1 ? 'tsi'
+           : 'unknown';
+
+  function shouldTrack(a) {
+    if (!a) return false;
+    var hasBrand = a.dataset && a.dataset.affBrand;
+    var hasAffClass = a.classList && a.classList.contains('aff-link');
+    if (!hasBrand && !hasAffClass) return false;
+    var href = a.getAttribute('href');
+    if (!href) return false;
+    if (href.charAt(0) === '#') return false;
+    if (a.getAttribute('aria-disabled') === 'true') return false;
+    return true;
+  }
+
+  function detectNetwork(a, href) {
+    var explicit = a.dataset && (a.dataset.affNetwork || a.dataset.network);
+    if (explicit) return explicit;
+    if (!href) return 'unknown';
+    if (/amzn\.to|amazon\./i.test(href)) return 'amazon';
+    if (/awin1\.com|awin\./i.test(href)) return 'awin';
+    if (/topcashback/i.test(href)) return 'topcashback';
+    if (/quidco/i.test(href)) return 'quidco';
+    if (/swagbucks/i.test(href)) return 'swagbucks';
+    if (/pxf\.io|partnerstack/i.test(href)) return 'partnerstack';
+    return 'unknown';
+  }
+
+  function send(a) {
+    try {
+      var href = a.getAttribute('href') || '';
+      var data = {
+        site: SITE,
+        page: location.pathname,
+        brand: (a.dataset && a.dataset.affBrand) || '',
+        network: detectNetwork(a, href),
+        targetUrl: href,
+        referrer: document.referrer || ''
+      };
+      var blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
+      navigator.sendBeacon(TRACK_URL, blob);
+    } catch (e) { /* never block navigation */ }
+  }
+
+  document.addEventListener('click', function (e) {
+    var t = e.target;
+    if (!t) return;
+    var a = (t.closest ? t.closest('a') : null);
+    if (shouldTrack(a)) send(a);
+  }, true);
+})();
