@@ -57,6 +57,7 @@ window.LNL_ARTICLES = [
 }
 }
 }
+}
 },
 
   {
