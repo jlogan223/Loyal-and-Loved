@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "dog-cat-heatstroke-signs-first-aid-uk",
+  title: "Heatstroke in Dogs and Cats: Signs, First Aid and When to Call the Vet 2026",
+  slug: "dog-cat-heatstroke-signs-first-aid-uk",
+  category: "health-vet-care",
+  excerpt: "Learn how to spot heatstroke in dogs and cats, provide emergency first aid, and prevent heat-related illness during UK summers.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "9 min read",
+  featured: false,
+  heroImage: "images/articles/dog-cat-heatstroke-signs-first-aid-uk/hero.png",
+  thumbnailImage: "images/articles/dog-cat-heatstroke-signs-first-aid-uk/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "best-flea-treatment-for-dogs",
   title: "Best Flea Treatment for Dogs UK 2026: Vet-Approved Options Compared",
   slug: "best-flea-treatment-for-dogs",
