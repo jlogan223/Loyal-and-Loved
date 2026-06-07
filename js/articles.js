@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "keep-indoor-cats-cool-summer-uk",
+  title: "How to Keep Indoor Cats Cool in Summer 2026: Fans, Mats & Frozen Treats",
+  slug: "keep-indoor-cats-cool-summer-uk",
+  category: "health-vet-care",
+  excerpt: "Beat the heat with our guide to cooling indoor cats. Discover fans, cooling mats, frozen treats and vet-approved safety tips for UK summers.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/keep-indoor-cats-cool-summer-uk/hero.png",
+  thumbnailImage: "images/articles/keep-indoor-cats-cool-summer-uk/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "keep-pets-cool-uk-heatwave-2026",
   title: "How to Keep Dogs and Cats Cool in a UK Heatwave: Expert Tips 2026",
   slug: "keep-pets-cool-uk-heatwave-2026",
