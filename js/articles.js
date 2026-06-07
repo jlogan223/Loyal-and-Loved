@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "keep-pets-cool-uk-heatwave-2026",
+  title: "How to Keep Dogs and Cats Cool in a UK Heatwave: Expert Tips 2026",
+  slug: "keep-pets-cool-uk-heatwave-2026",
+  category: "health-vet-care",
+  excerpt: "Essential heatwave safety tips for UK dogs and cats. Learn how to keep your pets cool, hydrated and safe during summer heat.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/keep-pets-cool-uk-heatwave-2026/hero.png",
+  thumbnailImage: "images/articles/keep-pets-cool-uk-heatwave-2026/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "dog-cat-heatstroke-signs-first-aid-uk",
   title: "Heatstroke in Dogs and Cats: Signs, First Aid and When to Call the Vet 2026",
   slug: "dog-cat-heatstroke-signs-first-aid-uk",
