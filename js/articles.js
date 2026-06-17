@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "dog-walking-temperature-guide-uk",
+  title: "When Is It Too Hot to Walk Your Dog? UK Temperature Guide 2026",
+  slug: "dog-walking-temperature-guide-uk",
+  category: "health-vet-care",
+  excerpt: "Learn safe temperatures for dog walking in the UK and how to protect your pet during hot weather with expert guidance.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/dog-walking-temperature-guide-uk/hero.png",
+  thumbnailImage: "images/articles/dog-walking-temperature-guide-uk/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "keep-indoor-cats-cool-summer-uk",
   title: "How to Keep Indoor Cats Cool in Summer 2026: Fans, Mats & Frozen Treats",
   slug: "keep-indoor-cats-cool-summer-uk",
