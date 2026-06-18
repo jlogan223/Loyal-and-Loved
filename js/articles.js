@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-cooling-products-pets-uk-mats-vests-bowls",
+  title: "Best Cooling Products for Pets UK 2026: Mats, Vests & Bowls Compared",
+  slug: "best-cooling-products-pets-uk-mats-vests-bowls",
+  category: "gear-tech",
+  excerpt: "Compare the best cooling mats, vests and water bowls to keep your dog and cat comfortable during UK heatwaves and summer.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/best-cooling-products-pets-uk-mats-vests-bowls/hero.png",
+  thumbnailImage: "images/articles/best-cooling-products-pets-uk-mats-vests-bowls/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "dog-walking-temperature-guide-uk",
   title: "When Is It Too Hot to Walk Your Dog? UK Temperature Guide 2026",
   slug: "dog-walking-temperature-guide-uk",
