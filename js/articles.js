@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "blue-green-algae-dogs-uk-poisoning-signs",
+  title: "Blue-Green Algae and Dogs UK: Where It Appears, Signs of Poisoning and What to Do",
+  slug: "blue-green-algae-dogs-uk-poisoning-signs",
+  category: "health-vet-care",
+  excerpt: "Learn where blue-green algae appears in UK waters, how to spot poisoning signs in dogs and emergency steps to take.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/blue-green-algae-dogs-uk-poisoning-signs/hero.png",
+  thumbnailImage: "images/articles/blue-green-algae-dogs-uk-poisoning-signs/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "best-cooling-products-pets-uk-mats-vests-bowls",
   title: "Best Cooling Products for Pets UK 2026: Mats, Vests & Bowls Compared",
   slug: "best-cooling-products-pets-uk-mats-vests-bowls",
