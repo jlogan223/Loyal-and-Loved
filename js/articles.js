@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "cat-window-falls-high-rise-syndrome-uk",
+  title: "Cat Window Falls and High-Rise Syndrome: Prevention Guide for UK Pet Owners",
+  slug: "cat-window-falls-high-rise-syndrome-uk",
+  category: "health-vet-care",
+  excerpt: "Learn how to prevent cat falls from open windows this summer. Expert tips on high-rise syndrome, window safety, and keeping indoor cats secure.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/cat-window-falls-high-rise-syndrome-uk/hero.png",
+  thumbnailImage: "images/articles/cat-window-falls-high-rise-syndrome-uk/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "blue-green-algae-dogs-uk-poisoning-signs",
   title: "Blue-Green Algae and Dogs UK: Where It Appears, Signs of Poisoning and What to Do",
   slug: "blue-green-algae-dogs-uk-poisoning-signs",
