@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "kennels-vs-pet-sitters-uk-costs-pros-cons",
+  title: "Kennels vs Pet Sitters UK 2026: Costs, Pros and Cons for Dogs and Cats",
+  slug: "kennels-vs-pet-sitters-uk-costs-pros-cons",
+  category: "health-vet-care",
+  excerpt: "Compare kennels and pet sitters in the UK. Find costs, benefits and drawbacks for dogs and cats when you're away.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "9 min read",
+  featured: false,
+  heroImage: "images/articles/kennels-vs-pet-sitters-uk-costs-pros-cons/hero.png",
+  thumbnailImage: "images/articles/kennels-vs-pet-sitters-uk-costs-pros-cons/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "cat-window-falls-high-rise-syndrome-uk",
   title: "Cat Window Falls and High-Rise Syndrome: Prevention Guide for UK Pet Owners",
   slug: "cat-window-falls-high-rise-syndrome-uk",
