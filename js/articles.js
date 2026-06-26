@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "pet-travel-uk-car-train-ferry-safety",
+  title: "Travelling with Pets in the UK: Car Safety, Train and Ferry Guide 2026",
+  slug: "pet-travel-uk-car-train-ferry-safety",
+  category: "gear-tech",
+  excerpt: "Complete guide to safe pet travel by car, train and ferry in the UK. Includes carriers, restraints, regulations and top tips.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "10 min read",
+  featured: false,
+  heroImage: "images/articles/pet-travel-uk-car-train-ferry-safety/hero.png",
+  thumbnailImage: "images/articles/pet-travel-uk-car-train-ferry-safety/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "kennels-vs-pet-sitters-uk-costs-pros-cons",
   title: "Kennels vs Pet Sitters UK 2026: Costs, Pros and Cons for Dogs and Cats",
   slug: "kennels-vs-pet-sitters-uk-costs-pros-cons",
