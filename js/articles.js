@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-puppy-food-uk-dry",
+  title: "Best Dry Puppy Food UK 2026: Vet-Reviewed Picks for Every Breed",
+  slug: "best-puppy-food-uk-dry",
+  category: "food-nutrition",
+  excerpt: "From budget-friendly kibble to grain-free options, here are the best dry puppy foods available in the UK right now.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-07",
+  readTime: "12 min read",
+  featured: false,
+  heroImage: "images/articles/best-puppy-food-uk-dry/hero.png",
+  thumbnailImage: "images/articles/best-puppy-food-uk-dry/hero.png",
+  affiliateLinks: {
+    bella-duke: ""
+  }
+},
+
+  {
   id: "pet-travel-uk-car-train-ferry-safety",
   title: "Travelling with Pets in the UK: Car Safety, Train and Ferry Guide 2026",
   slug: "pet-travel-uk-car-train-ferry-safety",
