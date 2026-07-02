@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "puppy-food-best-uk",
+  title: "Best Puppy Food UK 2026: Vet-Reviewed Wet, Dry and Raw Options",
+  slug: "puppy-food-best-uk",
+  category: "food-nutrition",
+  excerpt: "Choosing the right food sets your puppy up for life. Here are the best UK options, reviewed honestly.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-14",
+  readTime: "12 min read",
+  featured: false,
+  heroImage: "images/articles/puppy-food-best-uk/hero.png",
+  thumbnailImage: "images/articles/puppy-food-best-uk/hero.png",
+  affiliateLinks: {
+    barking-heads: ""
+  }
+},
+
+  {
   id: "best-puppy-food-uk-dry",
   title: "Best Dry Puppy Food UK 2026: Vet-Reviewed Picks for Every Breed",
   slug: "best-puppy-food-uk-dry",
