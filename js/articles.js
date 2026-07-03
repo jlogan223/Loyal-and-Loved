@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "dog-recall-training",
+  title: "Dog Recall Training UK 2026: How to Get a Reliable Come Command",
+  slug: "dog-recall-training",
+  category: "training-behaviour",
+  excerpt: "Learn how to build a reliable recall so your dog comes back every time, even off lead in busy parks.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-14",
+  readTime: "11 min read",
+  featured: false,
+  heroImage: "images/articles/dog-recall-training/hero.png",
+  thumbnailImage: "images/articles/dog-recall-training/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "puppy-food-best-uk",
   title: "Best Puppy Food UK 2026: Vet-Reviewed Wet, Dry and Raw Options",
   slug: "puppy-food-best-uk",
