@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "raw-food-dogs-uk",
+  title: "Raw Food for Dogs UK: A Practical Guide to Feeding Raw Safely in 2026",
+  slug: "raw-food-dogs-uk",
+  category: "food-nutrition",
+  excerpt: "Thinking about switching your dog to raw food? Here is everything UK owners need to know before making the change.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-07",
+  readTime: "12 min read",
+  featured: false,
+  heroImage: "images/articles/raw-food-dogs-uk/hero.png",
+  thumbnailImage: "images/articles/raw-food-dogs-uk/hero.png",
+  affiliateLinks: {
+    bella-duke: ""
+  }
+},
+
+  {
   id: "dog-recall-training",
   title: "Dog Recall Training UK 2026: How to Get a Reliable Come Command",
   slug: "dog-recall-training",
