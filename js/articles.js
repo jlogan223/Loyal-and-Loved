@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "training-recall-for-dogs",
+  title: "Recall Training for Dogs UK: How to Get a Reliable Come Command in 2026",
+  slug: "training-recall-for-dogs",
+  category: "training-behaviour",
+  excerpt: "Master a rock-solid recall with this step-by-step guide built for UK dogs, parks and unpredictable British weather.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-07",
+  readTime: "11 min read",
+  featured: false,
+  heroImage: "images/articles/training-recall-for-dogs/hero.png",
+  thumbnailImage: "images/articles/training-recall-for-dogs/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "raw-food-dogs-uk",
   title: "Raw Food for Dogs UK: A Practical Guide to Feeding Raw Safely in 2026",
   slug: "raw-food-dogs-uk",
