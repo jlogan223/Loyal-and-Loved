@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-food-for-french-bulldog-uk",
+  title: "Best Food for French Bulldogs UK 2026: Vet Tips for Sensitive Stomachs",
+  slug: "best-food-for-french-bulldog-uk",
+  category: "breed-guides",
+  excerpt: "French Bulldogs need food that is easy to digest and gentle on their famously sensitive stomachs. Here is what works.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-14",
+  readTime: "10 min read",
+  featured: false,
+  heroImage: "images/articles/best-food-for-french-bulldog-uk/hero.png",
+  thumbnailImage: "images/articles/best-food-for-french-bulldog-uk/hero.png",
+  affiliateLinks: {
+    aatu: ""
+  }
+},
+
+  {
   id: "training-recall-for-dogs",
   title: "Recall Training for Dogs UK: How to Get a Reliable Come Command in 2026",
   slug: "training-recall-for-dogs",
