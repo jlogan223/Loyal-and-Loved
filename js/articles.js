@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-cat-biscuits-uk",
+  title: "Best Cat Biscuits UK 2026: Dry Food Your Cat Will Actually Eat",
+  slug: "best-cat-biscuits-uk",
+  category: "food-nutrition",
+  excerpt: "From budget-friendly kibble to premium grain-free options, these are the best cat biscuits you can buy in the UK right now.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-07-12",
+  readTime: "11 min read",
+  featured: false,
+  heroImage: "images/articles/best-cat-biscuits-uk/hero.png",
+  thumbnailImage: "images/articles/best-cat-biscuits-uk/hero.png",
+  affiliateLinks: {
+    katkin: ""
+  }
+},
+
+  {
   id: "best-food-for-french-bulldog-uk",
   title: "Best Food for French Bulldogs UK 2026: Vet Tips for Sensitive Stomachs",
   slug: "best-food-for-french-bulldog-uk",
