@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-dry-food-for-labradors-uk",
+  title: "Best Dry Food for Labradors UK 2026: Vet Tips for Every Life Stage",
+  slug: "best-dry-food-for-labradors-uk",
+  category: "breed-guides",
+  excerpt: "Labradors are famously food-driven and prone to weight gain. Here are the best dry foods to keep them healthy in 2026.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-07-12",
+  readTime: "11 min read",
+  featured: false,
+  heroImage: "images/articles/best-dry-food-for-labradors-uk/hero.png",
+  thumbnailImage: "images/articles/best-dry-food-for-labradors-uk/hero.png",
+  affiliateLinks: {
+    barking-heads: ""
+  }
+},
+
+  {
   id: "best-cat-biscuits-uk",
   title: "Best Cat Biscuits UK 2026: Dry Food Your Cat Will Actually Eat",
   slug: "best-cat-biscuits-uk",
