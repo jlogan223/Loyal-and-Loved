@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-food-for-cocker-spaniels-uk",
+  title: "Best Food for Cocker Spaniels UK 2026: Top Picks for Every Budget",
+  slug: "best-food-for-cocker-spaniels-uk",
+  category: "food-nutrition",
+  excerpt: "Cocker spaniels are prone to sensitive stomachs and ear issues linked to diet. Find the UK foods that vets and owners trust most for this popular breed.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-07-05",
+  readTime: "10 min read",
+  featured: false,
+  heroImage: "images/articles/best-food-for-cocker-spaniels-uk/hero.png",
+  thumbnailImage: "images/articles/best-food-for-cocker-spaniels-uk/hero.png",
+  affiliateLinks: {
+    aatu: ""
+  }
+},
+
+  {
   id: "best-dry-food-for-labradors-uk",
   title: "Best Dry Food for Labradors UK 2026: Vet Tips for Every Life Stage",
   slug: "best-dry-food-for-labradors-uk",
