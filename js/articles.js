@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "anxious-dogs-uk",
+  title: "Anxious Dogs UK: Signs, Causes and Calming Strategies That Work",
+  slug: "anxious-dogs-uk",
+  category: "training-behaviour",
+  excerpt: "Learn to spot the signs of anxiety in your dog and find practical, evidence-backed strategies to help them feel safe and settled.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-07",
+  readTime: "10 min read",
+  featured: false,
+  heroImage: "images/articles/anxious-dogs-uk/hero.png",
+  thumbnailImage: "images/articles/anxious-dogs-uk/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "best-food-for-cocker-spaniels-uk",
   title: "Best Food for Cocker Spaniels UK 2026: Top Picks for Every Budget",
   slug: "best-food-for-cocker-spaniels-uk",
