@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "crate-training-puppy-uk",
+  title: "Crate Training a Puppy UK: A Step-by-Step Guide for 2026",
+  slug: "crate-training-puppy-uk",
+  category: "training-behaviour",
+  excerpt: "Learn how to crate train your puppy with kindness and consistency using our step-by-step UK guide.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-28",
+  readTime: "11 min read",
+  featured: false,
+  heroImage: "images/articles/crate-training-puppy-uk/hero.png",
+  thumbnailImage: "images/articles/crate-training-puppy-uk/hero.png",
+  affiliateLinks: {
+    omlet: ""
+  }
+},
+
+  {
   id: "anxious-dogs-uk",
   title: "Anxious Dogs UK: Signs, Causes and Calming Strategies That Work",
   slug: "anxious-dogs-uk",
