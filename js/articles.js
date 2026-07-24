@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "reactive-dog-training-london",
+  title: "Reactive Dog Training in London 2026: Classes, Trainers and Tips",
+  slug: "reactive-dog-training-london",
+  category: "training-behaviour",
+  excerpt: "Struggling with a reactive dog in London? Here is how to find the right trainer, class and approach for lasting results.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-07-19",
+  readTime: "11 min read",
+  featured: false,
+  heroImage: "images/articles/reactive-dog-training-london/hero.png",
+  thumbnailImage: "images/articles/reactive-dog-training-london/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "crate-training-puppy-uk",
   title: "Crate Training a Puppy UK: A Step-by-Step Guide for 2026",
   slug: "crate-training-puppy-uk",
