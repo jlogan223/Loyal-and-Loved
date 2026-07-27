@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-food-for-miniature-dachshund-uk",
+  title: "Best Food for Miniature Dachshunds UK 2026: Breed-Specific Nutrition Guide",
+  slug: "best-food-for-miniature-dachshund-uk",
+  category: "breed-guides",
+  excerpt: "Miniature Dachshunds need careful feeding to keep their weight down and protect their spines. Here are the best UK foods for 2026.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-07-26",
+  readTime: "11 min read",
+  featured: false,
+  heroImage: "images/articles/best-food-for-miniature-dachshund-uk/hero.png",
+  thumbnailImage: "images/articles/best-food-for-miniature-dachshund-uk/hero.png",
+  affiliateLinks: {
+    bella-duke: ""
+  }
+},
+
+  {
   id: "reactive-dog-training-london",
   title: "Reactive Dog Training in London 2026: Classes, Trainers and Tips",
   slug: "reactive-dog-training-london",
