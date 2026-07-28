@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "automatic-cat-feeder-wet-food-uk",
+  title: "Best Automatic Cat Feeders for Wet Food UK 2026: Compared and Ranked",
+  slug: "automatic-cat-feeder-wet-food-uk",
+  category: "gear-tech",
+  excerpt: "Leaving wet food out all day is a hygiene risk. These automatic cat feeders keep portions fresh and your cat on schedule.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-07-26",
+  readTime: "9 min read",
+  featured: false,
+  heroImage: "images/articles/automatic-cat-feeder-wet-food-uk/hero.png",
+  thumbnailImage: "images/articles/automatic-cat-feeder-wet-food-uk/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "best-food-for-miniature-dachshund-uk",
   title: "Best Food for Miniature Dachshunds UK 2026: Breed-Specific Nutrition Guide",
   slug: "best-food-for-miniature-dachshund-uk",
