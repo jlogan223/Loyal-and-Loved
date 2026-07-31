@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-food-for-cats-with-ibd-uk",
+  title: "Best Food for Cats With IBD UK 2026: Vet-Backed Choices Explained",
+  slug: "best-food-for-cats-with-ibd-uk",
+  category: "food-nutrition",
+  excerpt: "Struggling to feed a cat with IBD? We round up the best UK options approved by veterinary nutritionists.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-28",
+  readTime: "12 min read",
+  featured: false,
+  heroImage: "images/articles/best-food-for-cats-with-ibd-uk/hero.png",
+  thumbnailImage: "images/articles/best-food-for-cats-with-ibd-uk/hero.png",
+  affiliateLinks: {
+    katkin: ""
+  }
+},
+
+  {
   id: "automatic-cat-feeder-wet-food-uk",
   title: "Best Automatic Cat Feeders for Wet Food UK 2026: Compared and Ranked",
   slug: "automatic-cat-feeder-wet-food-uk",
