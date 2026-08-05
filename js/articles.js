@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "homemade-dog-biscuits-uk",
+  title: "Homemade Dog Biscuits UK: Simple Recipes Your Dog Will Love",
+  slug: "homemade-dog-biscuits-uk",
+  category: "food-nutrition",
+  excerpt: "Skip the packet and bake something your dog will go wild for. These easy UK homemade dog biscuit recipes use everyday ingredients you already have.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-08-02",
+  readTime: "9 min read",
+  featured: false,
+  heroImage: "images/articles/homemade-dog-biscuits-uk/hero.png",
+  thumbnailImage: "images/articles/homemade-dog-biscuits-uk/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "best-food-for-cats-with-ibd-uk",
   title: "Best Food for Cats With IBD UK 2026: Vet-Backed Choices Explained",
   slug: "best-food-for-cats-with-ibd-uk",
