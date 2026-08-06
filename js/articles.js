@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-food-for-dogs-with-itchy-skin-uk",
+  title: "Best Food for Dogs With Itchy Skin UK 2026: Vet-Backed Picks for Sensitive Coats",
+  slug: "best-food-for-dogs-with-itchy-skin-uk",
+  category: "food-nutrition",
+  excerpt: "If your dog can't stop scratching, the right food can make a real difference. Here are the vet-backed picks for itchy, sensitive dogs in 2026.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-08-02",
+  readTime: "10 min read",
+  featured: false,
+  heroImage: "images/articles/best-food-for-dogs-with-itchy-skin-uk/hero.png",
+  thumbnailImage: "images/articles/best-food-for-dogs-with-itchy-skin-uk/hero.png",
+  affiliateLinks: {
+    aatu: ""
+  }
+},
+
+  {
   id: "homemade-dog-biscuits-uk",
   title: "Homemade Dog Biscuits UK: Simple Recipes Your Dog Will Love",
   slug: "homemade-dog-biscuits-uk",
