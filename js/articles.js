@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-food-for-ragdoll-cats-uk",
+  title: "Best Food for Ragdoll Cats UK 2026: Vet-Reviewed Wet, Dry and Raw Picks",
+  slug: "best-food-for-ragdoll-cats-uk",
+  category: "food-nutrition",
+  excerpt: "Ragdolls need more protein and careful portion control than most cats. Here are the UK foods our reviewers rate most highly for this gentle giant.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-07-05",
+  readTime: "10 min read",
+  featured: false,
+  heroImage: "images/articles/best-food-for-ragdoll-cats-uk/hero.png",
+  thumbnailImage: "images/articles/best-food-for-ragdoll-cats-uk/hero.png",
+  affiliateLinks: {
+    katkin: ""
+  }
+},
+
+  {
   id: "best-food-for-dogs-with-itchy-skin-uk",
   title: "Best Food for Dogs With Itchy Skin UK 2026: Vet-Backed Picks for Sensitive Coats",
   slug: "best-food-for-dogs-with-itchy-skin-uk",
