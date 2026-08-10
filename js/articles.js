@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "dog-treats-homemade-uk",
+  title: "Homemade Dog Treats UK 2026: Easy Recipes Your Dog Will Love",
+  slug: "dog-treats-homemade-uk",
+  category: "food-nutrition",
+  excerpt: "Skip the shop-bought bags. These simple homemade dog treat recipes use everyday UK ingredients your dog will go wild for.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-08-09",
+  readTime: "9 min read",
+  featured: false,
+  heroImage: "images/articles/dog-treats-homemade-uk/hero.png",
+  thumbnailImage: "images/articles/dog-treats-homemade-uk/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "best-food-for-ragdoll-cats-uk",
   title: "Best Food for Ragdoll Cats UK 2026: Vet-Reviewed Wet, Dry and Raw Picks",
   slug: "best-food-for-ragdoll-cats-uk",
