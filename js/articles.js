@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-food-for-whippets-uk",
+  title: "Best Food for Whippets UK 2026: Nutrition Tips for a Lean, Active Breed",
+  slug: "best-food-for-whippets-uk",
+  category: "breed-guides",
+  excerpt: "Whippets look slender by nature, but feeding them right is still crucial. Here are the best UK foods for this elegant breed.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-08-09",
+  readTime: "10 min read",
+  featured: false,
+  heroImage: "images/articles/best-food-for-whippets-uk/hero.png",
+  thumbnailImage: "images/articles/best-food-for-whippets-uk/hero.png",
+  affiliateLinks: {
+    bella-duke: ""
+  }
+},
+
+  {
   id: "dog-treats-homemade-uk",
   title: "Homemade Dog Treats UK 2026: Easy Recipes Your Dog Will Love",
   slug: "dog-treats-homemade-uk",
