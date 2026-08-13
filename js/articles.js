@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-puppy-treats-uk",
+  title: "Best Puppy Treats UK 2026: Healthy Rewards for Training and Bonding",
+  slug: "best-puppy-treats-uk",
+  category: "training-behaviour",
+  excerpt: "The right treat makes training faster and more fun. These are the best puppy treats you can buy in the UK right now.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-14",
+  readTime: "9 min read",
+  featured: false,
+  heroImage: "images/articles/best-puppy-treats-uk/hero.png",
+  thumbnailImage: "images/articles/best-puppy-treats-uk/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "best-food-for-whippets-uk",
   title: "Best Food for Whippets UK 2026: Nutrition Tips for a Lean, Active Breed",
   slug: "best-food-for-whippets-uk",
