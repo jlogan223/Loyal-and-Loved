@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "cat-separation-anxiety-signs-causes-solutions-uk",
+  title: "Cat Separation Anxiety: Is It Real and What Can You Do About It?",
+  slug: "cat-separation-anxiety-signs-causes-solutions-uk",
+  category: "training-behaviour",
+  excerpt: "Discover whether cat separation anxiety is real, what causes it, and practical solutions to help your cat cope when you're away from home.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/cat-separation-anxiety-signs-causes-solutions-uk/hero.png",
+  thumbnailImage: "images/articles/cat-separation-anxiety-signs-causes-solutions-uk/hero.png",
+  affiliateLinks: {
+    viovet: ""
+  }
+},
+
+  {
   id: "best-puppy-treats-uk",
   title: "Best Puppy Treats UK 2026: Healthy Rewards for Training and Bonding",
   slug: "best-puppy-treats-uk",
