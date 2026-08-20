@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "dog-separation-anxiety-signs-causes-help-back-to-work",
+  title: "Dog Separation Anxiety: Signs, Causes and How to Help When You Go Back to Work",
+  slug: "dog-separation-anxiety-signs-causes-help-back-to-work",
+  category: "training-behaviour",
+  excerpt: "Learn to recognise dog separation anxiety, understand why it happens, and discover practical strategies to help your dog adjust when you return to the office.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/dog-separation-anxiety-signs-causes-help-back-to-work/hero.png",
+  thumbnailImage: "images/articles/dog-separation-anxiety-signs-causes-help-back-to-work/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "cat-separation-anxiety-signs-causes-solutions-uk",
   title: "Cat Separation Anxiety: Is It Real and What Can You Do About It?",
   slug: "cat-separation-anxiety-signs-causes-solutions-uk",
