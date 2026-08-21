@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "autumn-pet-hazards-uk-conkers-acorns-mushrooms",
+  title: "Autumn Pet Hazards UK 2026: Conkers, Acorns, Mushrooms and Seasonal Toxins",
+  slug: "autumn-pet-hazards-uk-conkers-acorns-mushrooms",
+  category: "health-vet-care",
+  excerpt: "Keep your dog and cat safe this autumn. Learn which seasonal hazards like conkers, acorns and wild mushrooms are toxic and how to prevent poisoning.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/autumn-pet-hazards-uk-conkers-acorns-mushrooms/hero.png",
+  thumbnailImage: "images/articles/autumn-pet-hazards-uk-conkers-acorns-mushrooms/hero.png",
+  affiliateLinks: {
+    viovet: ""
+  }
+},
+
+  {
   id: "dog-separation-anxiety-signs-causes-help-back-to-work",
   title: "Dog Separation Anxiety: Signs, Causes and How to Help When You Go Back to Work",
   slug: "dog-separation-anxiety-signs-causes-help-back-to-work",
