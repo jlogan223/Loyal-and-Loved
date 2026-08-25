@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-treats-for-puppies-uk",
+  title: "Best Treats for Puppies UK 2026: Healthy Rewards for Training and Bonding",
+  slug: "best-treats-for-puppies-uk",
+  category: "food-nutrition",
+  excerpt: "Reward-based training works best with the right treats. Here are the healthiest, tastiest puppy treat options available in the UK right now.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-05-31",
+  readTime: "9 min read",
+  featured: false,
+  heroImage: "images/articles/best-treats-for-puppies-uk/hero.png",
+  thumbnailImage: "images/articles/best-treats-for-puppies-uk/hero.png",
+  affiliateLinks: {
+    aatu: ""
+  }
+},
+
+  {
   id: "autumn-pet-hazards-uk-conkers-acorns-mushrooms",
   title: "Autumn Pet Hazards UK 2026: Conkers, Acorns, Mushrooms and Seasonal Toxins",
   slug: "autumn-pet-hazards-uk-conkers-acorns-mushrooms",
