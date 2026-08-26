@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "kitten-feeding-guide-uk",
+  title: "Kitten Feeding Guide UK 2026: How Much, How Often and What to Feed",
+  slug: "kitten-feeding-guide-uk",
+  category: "food-nutrition",
+  excerpt: "Everything new UK kitten owners need to know about feeding, from first weeks to adulthood, in one clear guide.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-28",
+  readTime: "11 min read",
+  featured: false,
+  heroImage: "images/articles/kitten-feeding-guide-uk/hero.png",
+  thumbnailImage: "images/articles/kitten-feeding-guide-uk/hero.png",
+  affiliateLinks: {
+    katkin: ""
+  }
+},
+
+  {
   id: "best-treats-for-puppies-uk",
   title: "Best Treats for Puppies UK 2026: Healthy Rewards for Training and Bonding",
   slug: "best-treats-for-puppies-uk",
