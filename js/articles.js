@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "train-dog-to-come-when-called",
+  title: "How to Train Your Dog to Come When Called: A UK Step-by-Step Guide 2026",
+  slug: "train-dog-to-come-when-called",
+  category: "training-behaviour",
+  excerpt: "A solid recall could save your dog's life. Follow this UK step-by-step guide to build a come-when-called response you can genuinely rely on.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-07-05",
+  readTime: "10 min read",
+  featured: false,
+  heroImage: "images/articles/train-dog-to-come-when-called/hero.png",
+  thumbnailImage: "images/articles/train-dog-to-come-when-called/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "kitten-feeding-guide-uk",
   title: "Kitten Feeding Guide UK 2026: How Much, How Often and What to Feed",
   slug: "kitten-feeding-guide-uk",
