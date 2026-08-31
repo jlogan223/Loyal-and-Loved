@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-reflective-led-dog-gear-dark-walks-uk",
+  title: "Best Reflective and LED Gear for Dog Walks in the Dark UK 2026",
+  slug: "best-reflective-led-dog-gear-dark-walks-uk",
+  category: "gear-tech",
+  excerpt: "Keep your dog visible and safe on dark autumn and winter walks with our guide to the best reflective collars, leads, harnesses and LED lights.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/best-reflective-led-dog-gear-dark-walks-uk/hero.png",
+  thumbnailImage: "images/articles/best-reflective-led-dog-gear-dark-walks-uk/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "train-dog-to-come-when-called",
   title: "How to Train Your Dog to Come When Called: A UK Step-by-Step Guide 2026",
   slug: "train-dog-to-come-when-called",
