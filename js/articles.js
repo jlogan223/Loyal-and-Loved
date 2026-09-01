@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "halloween-pets-chocolate-costumes-anxiety-uk",
+  title: "Halloween and Pets 2026: Chocolate Dangers, Costumes and Trick-or-Treater Anxiety",
+  slug: "halloween-pets-chocolate-costumes-anxiety-uk",
+  category: "health-vet-care",
+  excerpt: "Keep your dog or cat safe this Halloween. Learn about chocolate toxicity, costume stress and managing trick-or-treater anxiety.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/halloween-pets-chocolate-costumes-anxiety-uk/hero.png",
+  thumbnailImage: "images/articles/halloween-pets-chocolate-costumes-anxiety-uk/hero.png",
+  affiliateLinks: {
+    viovet: ""
+  }
+},
+
+  {
   id: "best-reflective-led-dog-gear-dark-walks-uk",
   title: "Best Reflective and LED Gear for Dog Walks in the Dark UK 2026",
   slug: "best-reflective-led-dog-gear-dark-walks-uk",
