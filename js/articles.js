@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "clocks-going-back-adjust-dog-cat-routine-uk",
+  title: "Clocks Going Back: How to Adjust Your Dog or Cat's Routine",
+  slug: "clocks-going-back-adjust-dog-cat-routine-uk",
+  category: "training-behaviour",
+  excerpt: "When clocks go back in October, help your pet adjust with gradual routine changes. Tips for dogs, cats, and managing behavioural changes.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/clocks-going-back-adjust-dog-cat-routine-uk/hero.png",
+  thumbnailImage: "images/articles/clocks-going-back-adjust-dog-cat-routine-uk/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "halloween-pets-chocolate-costumes-anxiety-uk",
   title: "Halloween and Pets 2026: Chocolate Dangers, Costumes and Trick-or-Treater Anxiety",
   slug: "halloween-pets-chocolate-costumes-anxiety-uk",
