@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-food-for-staffordshire-bull-terrier-uk",
+  title: "Best Food for Staffordshire Bull Terriers UK 2026: Breed-Specific Nutrition Guide",
+  slug: "best-food-for-staffordshire-bull-terrier-uk",
+  category: "breed-guides",
+  excerpt: "Find the best UK dog food for Staffordshire Bull Terriers, with vet-backed picks for muscular builds, sensitive skin and every life stage.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-08-30",
+  readTime: "11 min read",
+  featured: false,
+  heroImage: "images/articles/best-food-for-staffordshire-bull-terrier-uk/hero.png",
+  thumbnailImage: "images/articles/best-food-for-staffordshire-bull-terrier-uk/hero.png",
+  affiliateLinks: {
+    bella-duke: ""
+  }
+},
+
+  {
   id: "clocks-going-back-adjust-dog-cat-routine-uk",
   title: "Clocks Going Back: How to Adjust Your Dog or Cat's Routine",
   slug: "clocks-going-back-adjust-dog-cat-routine-uk",
