@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "outdoor-cats-autumn-safety-uk-shorter-days",
+  title: "Keeping Outdoor Cats Safe in Autumn: Shorter Days, Cold Nights & Road Risks 2026",
+  slug: "outdoor-cats-autumn-safety-uk-shorter-days",
+  category: "health-vet-care",
+  excerpt: "Protect your outdoor cat this autumn with safety tips for darker evenings, colder weather, and increased traffic risks.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/outdoor-cats-autumn-safety-uk-shorter-days/hero.png",
+  thumbnailImage: "images/articles/outdoor-cats-autumn-safety-uk-shorter-days/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "best-food-for-staffordshire-bull-terrier-uk",
   title: "Best Food for Staffordshire Bull Terriers UK 2026: Breed-Specific Nutrition Guide",
   slug: "best-food-for-staffordshire-bull-terrier-uk",
