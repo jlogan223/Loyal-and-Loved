@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "puppy-training-advice-uk",
+  title: "Puppy Training Advice UK 2026: A Practical Guide for New Owners",
+  slug: "puppy-training-advice-uk",
+  category: "training-behaviour",
+  excerpt: "Starting puppy training on the right foot makes everything easier. Here is a practical, positive approach for UK owners in 2026.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-07-26",
+  readTime: "12 min read",
+  featured: false,
+  heroImage: "images/articles/puppy-training-advice-uk/hero.png",
+  thumbnailImage: "images/articles/puppy-training-advice-uk/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "outdoor-cats-autumn-safety-uk-shorter-days",
   title: "Keeping Outdoor Cats Safe in Autumn: Shorter Days, Cold Nights & Road Risks 2026",
   slug: "outdoor-cats-autumn-safety-uk-shorter-days",
