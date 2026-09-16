@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "puppy-training-tips-uk",
+  title: "Puppy Training Tips UK 2026: A Practical Week-by-Week Guide",
+  slug: "puppy-training-tips-uk",
+  category: "training-behaviour",
+  excerpt: "Start your puppy off right with this week-by-week UK training guide covering everything from toilet training to recall.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-07-12",
+  readTime: "12 min read",
+  featured: false,
+  heroImage: "images/articles/puppy-training-tips-uk/hero.png",
+  thumbnailImage: "images/articles/puppy-training-tips-uk/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "puppy-training-advice-uk",
   title: "Puppy Training Advice UK 2026: A Practical Guide for New Owners",
   slug: "puppy-training-advice-uk",
