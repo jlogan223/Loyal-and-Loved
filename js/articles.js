@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-cat-vitamins-uk",
+  title: "Best Cat Vitamins and Supplements UK 2026: What Your Cat Actually Needs",
+  slug: "best-cat-vitamins-uk",
+  category: "health-vet-care",
+  excerpt: "Not all cats need supplements, but when they do, here are the UK vet-backed options worth buying in 2026.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-07-12",
+  readTime: "10 min read",
+  featured: false,
+  heroImage: "images/articles/best-cat-vitamins-uk/hero.png",
+  thumbnailImage: "images/articles/best-cat-vitamins-uk/hero.png",
+  affiliateLinks: {
+    viovet: ""
+  }
+},
+
+  {
   id: "puppy-training-tips-uk",
   title: "Puppy Training Tips UK 2026: A Practical Week-by-Week Guide",
   slug: "puppy-training-tips-uk",
