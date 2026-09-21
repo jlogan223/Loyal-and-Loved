@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-calming-products-pets-uk-adaptil-feliway",
+  title: "Best Calming Products for Pets UK 2026: Adaptil, Feliway, Thunder Shirts Compared",
+  slug: "best-calming-products-pets-uk-adaptil-feliway",
+  category: "gear-tech",
+  excerpt: "Compare top calming products for anxious dogs and cats in the UK including Adaptil, Feliway, thunder shirts and supplements.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/best-calming-products-pets-uk-adaptil-feliway/hero.png",
+  thumbnailImage: "images/articles/best-calming-products-pets-uk-adaptil-feliway/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "best-cat-vitamins-uk",
   title: "Best Cat Vitamins and Supplements UK 2026: What Your Cat Actually Needs",
   slug: "best-cat-vitamins-uk",
