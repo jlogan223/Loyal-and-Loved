@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "keep-pets-calm-fireworks-uk-dogs-cats",
+  title: "How to Keep Dogs and Cats Calm During Fireworks in the UK 2026",
+  slug: "keep-pets-calm-fireworks-uk-dogs-cats",
+  category: "health-vet-care",
+  excerpt: "Expert tips to help your dog or cat stay calm during UK fireworks season. Safe calming methods, products and vet advice.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/keep-pets-calm-fireworks-uk-dogs-cats/hero.png",
+  thumbnailImage: "images/articles/keep-pets-calm-fireworks-uk-dogs-cats/hero.png",
+  affiliateLinks: {
+    viovet: ""
+  }
+},
+
+  {
   id: "best-calming-products-pets-uk-adaptil-feliway",
   title: "Best Calming Products for Pets UK 2026: Adaptil, Feliway, Thunder Shirts Compared",
   slug: "best-calming-products-pets-uk-adaptil-feliway",
