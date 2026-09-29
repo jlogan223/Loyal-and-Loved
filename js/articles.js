@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "fireworks-cats-bonfire-night-safety-uk",
+  title: "Fireworks and Cats: Keeping Indoor and Outdoor Cats Safe on Bonfire Night 2026",
+  slug: "fireworks-cats-bonfire-night-safety-uk",
+  category: "health-vet-care",
+  excerpt: "Essential guide to protecting your cat from fireworks anxiety during Bonfire Night. Safety tips for indoor and outdoor cats plus calming solutions.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-06-05",
+  readTime: "8 min read",
+  featured: false,
+  heroImage: "images/articles/fireworks-cats-bonfire-night-safety-uk/hero.png",
+  thumbnailImage: "images/articles/fireworks-cats-bonfire-night-safety-uk/hero.png",
+  affiliateLinks: {
+    viovet: ""
+  }
+},
+
+  {
   id: "keep-pets-calm-fireworks-uk-dogs-cats",
   title: "How to Keep Dogs and Cats Calm During Fireworks in the UK 2026",
   slug: "keep-pets-calm-fireworks-uk-dogs-cats",
