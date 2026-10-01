@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "raw-food-diet-for-puppies-uk",
+  title: "Raw Food Diet for Puppies UK 2026: A Safe and Practical Guide",
+  slug: "raw-food-diet-for-puppies-uk",
+  category: "food-nutrition",
+  excerpt: "Thinking about raw feeding your puppy? Here is what UK vets recommend, plus practical portion guidance and food safety tips.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-09-08",
+  readTime: "12 min read",
+  featured: false,
+  heroImage: "images/articles/raw-food-diet-for-puppies-uk/hero.png",
+  thumbnailImage: "images/articles/raw-food-diet-for-puppies-uk/hero.png",
+  affiliateLinks: {
+    bella-duke: ""
+  }
+},
+
+  {
   id: "fireworks-cats-bonfire-night-safety-uk",
   title: "Fireworks and Cats: Keeping Indoor and Outdoor Cats Safe on Bonfire Night 2026",
   slug: "fireworks-cats-bonfire-night-safety-uk",
