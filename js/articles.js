@@ -6,6 +6,21 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "homemade-dog-treats-recipes-vet-approved-uk",
+  title: "Homemade Dog Treat Recipes UK 2026: Vet-Approved Ideas Your Dog Will Love",
+  slug: "homemade-dog-treats-recipes-vet-approved-uk",
+  category: "food-nutrition",
+  excerpt: "Skip the packet and make your dog something special. These vet-approved homemade treat recipes use simple UK store-cupboard ingredients.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-08-30",
+  readTime: "12 min read",
+  featured: false,
+  heroImage: "images/articles/homemade-dog-treats-recipes-vet-approved-uk/hero.png",
+  thumbnailImage: "images/articles/homemade-dog-treats-recipes-vet-approved-uk/hero.png",
+  affiliateLinks: {}
+},
+
+  {
   id: "raw-food-diet-for-puppies-uk",
   title: "Raw Food Diet for Puppies UK 2026: A Safe and Practical Guide",
   slug: "raw-food-diet-for-puppies-uk",
