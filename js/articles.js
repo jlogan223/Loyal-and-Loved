@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "long-line-training-dog",
+  title: "Long Line Training for Dogs UK 2026: How to Build a Reliable Recall Safely",
+  slug: "long-line-training-dog",
+  category: "training-behaviour",
+  excerpt: "A long line is one of the most effective tools for teaching a safe, reliable recall. Here is how to use one correctly in the UK.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-09-20",
+  readTime: "10 min read",
+  featured: false,
+  heroImage: "images/articles/long-line-training-dog/hero.png",
+  thumbnailImage: "images/articles/long-line-training-dog/hero.png",
+  affiliateLinks: {
+    amazon-uk: ""
+  }
+},
+
+  {
   id: "homemade-dog-treats-recipes-vet-approved-uk",
   title: "Homemade Dog Treat Recipes UK 2026: Vet-Approved Ideas Your Dog Will Love",
   slug: "homemade-dog-treats-recipes-vet-approved-uk",
