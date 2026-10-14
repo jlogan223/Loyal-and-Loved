@@ -165,22 +165,6 @@ window.LNL_ARTICLES = [
   },
 
   {
-    "id": "puppy-training-advice-uk",
-    "title": "Puppy Training Advice UK 2026: A Practical Guide for New Owners",
-    "slug": "puppy-training-advice-uk",
-    "category": "training-behaviour",
-    "excerpt": "Starting puppy training on the right foot makes everything easier. Here is a practical, positive approach for UK owners in 2026.",
-    "author": "Loyal &amp; Loved Team",
-    "date": "2026-07-26",
-    "readTime": "12 min read",
-    "featured": false,
-    "heroImage": "images/articles/puppy-training-advice-uk/hero.png",
-    "thumbnailImage": "images/articles/puppy-training-advice-uk/hero.png",
-    "affiliateLinks": {},
-    "publishedAt": "2026-09-15T09:34:10.218Z"
-  },
-
-  {
     "id": "outdoor-cats-autumn-safety-uk-shorter-days",
     "title": "Keeping Outdoor Cats Safe in Autumn: Shorter Days, Cold Nights & Road Risks 2026",
     "slug": "outdoor-cats-autumn-safety-uk-shorter-days",
@@ -267,22 +251,6 @@ window.LNL_ARTICLES = [
   },
 
   {
-    "id": "train-dog-to-come-when-called",
-    "title": "How to Train Your Dog to Come When Called: A UK Step-by-Step Guide 2026",
-    "slug": "train-dog-to-come-when-called",
-    "category": "training-behaviour",
-    "excerpt": "A solid recall could save your dog's life. Follow this UK step-by-step guide to build a come-when-called response you can genuinely rely on.",
-    "author": "Loyal &amp; Loved Team",
-    "date": "2026-07-05",
-    "readTime": "10 min read",
-    "featured": false,
-    "heroImage": "images/articles/train-dog-to-come-when-called/hero.png",
-    "thumbnailImage": "images/articles/train-dog-to-come-when-called/hero.png",
-    "affiliateLinks": {},
-    "publishedAt": "2026-08-28T07:00:09.126Z"
-  },
-
-  {
     "id": "kitten-feeding-guide-uk",
     "title": "Kitten Feeding Guide UK 2026: How Much, How Often and What to Feed",
     "slug": "kitten-feeding-guide-uk",
@@ -298,24 +266,6 @@ window.LNL_ARTICLES = [
       "katkin": ""
     },
     "publishedAt": "2026-08-26T07:00:11.135Z"
-  },
-
-  {
-    "id": "best-treats-for-puppies-uk",
-    "title": "Best Treats for Puppies UK 2026: Healthy Rewards for Training and Bonding",
-    "slug": "best-treats-for-puppies-uk",
-    "category": "food-nutrition",
-    "excerpt": "Reward-based training works best with the right treats. Here are the healthiest, tastiest puppy treat options available in the UK right now.",
-    "author": "Loyal &amp; Loved Team",
-    "date": "2026-05-31",
-    "readTime": "9 min read",
-    "featured": false,
-    "heroImage": "images/articles/best-treats-for-puppies-uk/hero.png",
-    "thumbnailImage": "images/articles/best-treats-for-puppies-uk/hero.png",
-    "affiliateLinks": {
-      "aatu": ""
-    },
-    "publishedAt": "2026-08-25T07:00:11.395Z"
   },
 
   {
@@ -404,22 +354,6 @@ window.LNL_ARTICLES = [
       "bella-duke": ""
     },
     "publishedAt": "2026-08-12T07:00:09.418Z"
-  },
-
-  {
-    "id": "dog-treats-homemade-uk",
-    "title": "Homemade Dog Treats UK 2026: Easy Recipes Your Dog Will Love",
-    "slug": "dog-treats-homemade-uk",
-    "category": "food-nutrition",
-    "excerpt": "Skip the shop-bought bags. These simple homemade dog treat recipes use everyday UK ingredients your dog will go wild for.",
-    "author": "Loyal &amp; Loved Team",
-    "date": "2026-08-09",
-    "readTime": "9 min read",
-    "featured": false,
-    "heroImage": "images/articles/dog-treats-homemade-uk/hero.png",
-    "thumbnailImage": "images/articles/dog-treats-homemade-uk/hero.png",
-    "affiliateLinks": {},
-    "publishedAt": "2026-08-10T07:00:08.924Z"
   },
 
   {
@@ -648,22 +582,6 @@ window.LNL_ARTICLES = [
       "aatu": ""
     },
     "publishedAt": "2026-07-10T07:00:02Z"
-  },
-
-  {
-    "id": "training-recall-for-dogs",
-    "title": "Recall Training for Dogs UK: How to Get a Reliable Come Command in 2026",
-    "slug": "training-recall-for-dogs",
-    "category": "training-behaviour",
-    "excerpt": "Master a rock-solid recall with this step-by-step guide built for UK dogs, parks and unpredictable British weather.",
-    "author": "Loyal &amp; Loved Team",
-    "date": "2026-06-07",
-    "readTime": "11 min read",
-    "featured": false,
-    "heroImage": "images/articles/training-recall-for-dogs/hero.png",
-    "thumbnailImage": "images/articles/training-recall-for-dogs/hero.png",
-    "affiliateLinks": {},
-    "publishedAt": "2026-07-09T07:00:02Z"
   },
 
   {
