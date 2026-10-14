@@ -6,6 +6,23 @@
 
 window.LNL_ARTICLES = [
   {
+  id: "best-dry-food-for-bengal-cats-uk",
+  title: "Best Dry Food for Bengal Cats UK 2026: Breed-Specific Nutrition Guide",
+  slug: "best-dry-food-for-bengal-cats-uk",
+  category: "breed-guides",
+  excerpt: "Bengals are active, muscle-heavy cats with high protein needs. Here are the best dry food options available in the UK for this energetic breed in 2026.",
+  author: "Loyal &amp; Loved Team",
+  date: "2026-08-02",
+  readTime: "10 min read",
+  featured: false,
+  heroImage: "images/articles/best-dry-food-for-bengal-cats-uk/hero.png",
+  thumbnailImage: "images/articles/best-dry-food-for-bengal-cats-uk/hero.png",
+  affiliateLinks: {
+    katkin: ""
+  }
+},
+
+  {
   id: "long-line-training-dog",
   title: "Long Line Training for Dogs UK 2026: How to Build a Reliable Recall Safely",
   slug: "long-line-training-dog",
