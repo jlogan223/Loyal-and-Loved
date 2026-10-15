@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "fireworks-dogs-cats-enrichment-toys-safe-den-bonfire-night-uk",
+    "title": "Keep Dogs & Cats Busy During Fireworks: Best Enrichment Toys, Chews & Safe Dens for Bonfire Night UK",
+    "slug": "fireworks-dogs-cats-enrichment-toys-safe-den-bonfire-night-uk",
+    "category": "gear-tech",
+    "excerpt": "Discover the best enrichment toys, lick mats, long-lasting chews and safe den setups to keep dogs and cats calm and occupied during fireworks.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-10-14",
+    "readTime": "8 min read",
+    "featured": false,
+    "heroImage": "images/articles/fireworks-dogs-cats-enrichment-toys-safe-den-bonfire-night-uk/hero.png",
+    "thumbnailImage": "images/articles/fireworks-dogs-cats-enrichment-toys-safe-den-bonfire-night-uk/hero.png",
+    "affiliateLinks": {
+      "amazon-uk": ""
+    },
+    "publishedAt": "2026-10-15T07:00:06.345Z"
+  },
+
+  {
     "id": "best-dry-food-for-bengal-cats-uk",
     "title": "Best Dry Food for Bengal Cats UK 2026: Breed-Specific Nutrition Guide",
     "slug": "best-dry-food-for-bengal-cats-uk",
