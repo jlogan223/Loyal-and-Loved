@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-food-for-bengal-kittens-uk",
+    "title": "Best Food for Bengal Kittens UK 2026: High-Protein Nutrition for an Active Breed",
+    "slug": "best-food-for-bengal-kittens-uk",
+    "category": "breed-guides",
+    "excerpt": "Bengal kittens are high-energy and protein-hungry. Here are the best UK foods to keep your Bengal kitten thriving from 8 weeks onwards.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-08-30",
+    "readTime": "10 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-food-for-bengal-kittens-uk/hero.png",
+    "thumbnailImage": "images/articles/best-food-for-bengal-kittens-uk/hero.png",
+    "affiliateLinks": {
+      "katkin": ""
+    },
+    "publishedAt": "2026-10-16T07:00:06.166Z"
+  },
+
+  {
     "id": "fireworks-dogs-cats-enrichment-toys-safe-den-bonfire-night-uk",
     "title": "Keep Dogs & Cats Busy During Fireworks: Best Enrichment Toys, Chews & Safe Dens for Bonfire Night UK",
     "slug": "fireworks-dogs-cats-enrichment-toys-safe-den-bonfire-night-uk",
