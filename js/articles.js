@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-christmas-gifts-cats-uk-2026",
+    "title": "Best Christmas gifts for cats UK 2026 - Tech, toys and treats",
+    "slug": "best-christmas-gifts-cats-uk-2026",
+    "category": "gear-tech",
+    "excerpt": "Find the best Christmas gifts for cats in 2026. From interactive tech to cosy beds, our UK guide covers gadgets that cats actually love.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-06-05",
+    "readTime": "8 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-christmas-gifts-cats-uk-2026/hero.png",
+    "thumbnailImage": "images/articles/best-christmas-gifts-cats-uk-2026/hero.png",
+    "affiliateLinks": {
+      "amazon-uk": ""
+    },
+    "publishedAt": "2026-10-19T07:00:07.146Z"
+  },
+
+  {
     "id": "best-food-for-bengal-kittens-uk",
     "title": "Best Food for Bengal Kittens UK 2026: High-Protein Nutrition for an Active Breed",
     "slug": "best-food-for-bengal-kittens-uk",
