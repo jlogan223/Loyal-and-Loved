@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-christmas-gifts-dogs-uk-2026",
+    "title": "Best Christmas Gifts for Dogs UK 2026: Tech, Toys & Treats",
+    "slug": "best-christmas-gifts-dogs-uk-2026",
+    "category": "gear-tech",
+    "excerpt": "Discover the best Christmas gifts for dogs in 2026, from interactive tech to durable toys. Perfect presents for every breed and budget.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-06-05",
+    "readTime": "9 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-christmas-gifts-dogs-uk-2026/hero.png",
+    "thumbnailImage": "images/articles/best-christmas-gifts-dogs-uk-2026/hero.png",
+    "affiliateLinks": {
+      "amazon-uk": ""
+    },
+    "publishedAt": "2026-10-20T07:00:05.827Z"
+  },
+
+  {
     "id": "best-christmas-gifts-cats-uk-2026",
     "title": "Best Christmas gifts for cats UK 2026 - Tech, toys and treats",
     "slug": "best-christmas-gifts-cats-uk-2026",
