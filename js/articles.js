@@ -7,6 +7,22 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "christmas-foods-toxic-dogs-cats-uk",
+    "title": "Christmas Foods Toxic to Dogs and Cats: The Complete UK Safety Guide 2026",
+    "slug": "christmas-foods-toxic-dogs-cats-uk",
+    "category": "health-vet-care",
+    "excerpt": "Discover which Christmas foods are poisonous to dogs and cats in the UK, plus safe festive alternatives and emergency vet contacts.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-06-05",
+    "readTime": "9 min read",
+    "featured": false,
+    "heroImage": "images/articles/christmas-foods-toxic-dogs-cats-uk/hero.png",
+    "thumbnailImage": "images/articles/christmas-foods-toxic-dogs-cats-uk/hero.png",
+    "affiliateLinks": {},
+    "publishedAt": "2026-10-21T07:00:06.021Z"
+  },
+
+  {
     "id": "best-christmas-gifts-dogs-uk-2026",
     "title": "Best Christmas Gifts for Dogs UK 2026: Tech, Toys & Treats",
     "slug": "best-christmas-gifts-dogs-uk-2026",
