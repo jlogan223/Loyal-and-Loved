@@ -7,6 +7,22 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "antifreeze-poisoning-cats-uk-signs-treatment",
+    "title": "Antifreeze Poisoning in Cats: Signs, Treatment and Prevention UK 2026",
+    "slug": "antifreeze-poisoning-cats-uk-signs-treatment",
+    "category": "health-vet-care",
+    "excerpt": "Learn how to spot antifreeze poisoning in cats, what treatment involves and how to prevent this winter danger in your home.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-06-05",
+    "readTime": "8 min read",
+    "featured": false,
+    "heroImage": "images/articles/antifreeze-poisoning-cats-uk-signs-treatment/hero.png",
+    "thumbnailImage": "images/articles/antifreeze-poisoning-cats-uk-signs-treatment/hero.png",
+    "affiliateLinks": {},
+    "publishedAt": "2026-10-23T07:00:06.017Z"
+  },
+
+  {
     "id": "christmas-foods-toxic-dogs-cats-uk",
     "title": "Christmas Foods Toxic to Dogs and Cats: The Complete UK Safety Guide 2026",
     "slug": "christmas-foods-toxic-dogs-cats-uk",
