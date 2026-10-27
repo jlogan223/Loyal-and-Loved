@@ -7,6 +7,22 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "christmas-trees-cats-safety-uk-2026",
+    "title": "Christmas Trees and Cats: Keeping Your Tree and Feline Safe This 2026",
+    "slug": "christmas-trees-cats-safety-uk-2026",
+    "category": "health-vet-care",
+    "excerpt": "Learn how to cat-proof your Christmas tree and protect your feline from festive hazards this season.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-06-05",
+    "readTime": "8 min read",
+    "featured": false,
+    "heroImage": "images/articles/christmas-trees-cats-safety-uk-2026/hero.png",
+    "thumbnailImage": "images/articles/christmas-trees-cats-safety-uk-2026/hero.png",
+    "affiliateLinks": {},
+    "publishedAt": "2026-10-27T08:00:06.125Z"
+  },
+
+  {
     "id": "antifreeze-poisoning-cats-uk-signs-treatment",
     "title": "Antifreeze Poisoning in Cats: Signs, Treatment and Prevention UK 2026",
     "slug": "antifreeze-poisoning-cats-uk-signs-treatment",
