@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-food-for-cat-with-sensitive-stomach-uk",
+    "title": "Best Food for Cats With a Sensitive Stomach UK 2026: Vet-Backed Picks",
+    "slug": "best-food-for-cat-with-sensitive-stomach-uk",
+    "category": "food-nutrition",
+    "excerpt": "Vomiting, loose stools or picky eating could all point to a sensitive stomach. Here are the UK cat foods vets most often recommend.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-08-16",
+    "readTime": "11 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-food-for-cat-with-sensitive-stomach-uk/hero.png",
+    "thumbnailImage": "images/articles/best-food-for-cat-with-sensitive-stomach-uk/hero.png",
+    "affiliateLinks": {
+      "katkin": ""
+    },
+    "publishedAt": "2026-10-28T08:00:07.272Z"
+  },
+
+  {
     "id": "christmas-trees-cats-safety-uk-2026",
     "title": "Christmas Trees and Cats: Keeping Your Tree and Feline Safe This 2026",
     "slug": "christmas-trees-cats-safety-uk-2026",
