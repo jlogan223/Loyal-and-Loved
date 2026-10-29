@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-food-for-sphynx-uk",
+    "title": "Best Food for Sphynx Cats UK 2026: Nutrition Guide for a High-Energy Breed",
+    "slug": "best-food-for-sphynx-uk",
+    "category": "food-nutrition",
+    "excerpt": "Sphynx cats burn more calories keeping warm. Here are the UK foods that fuel them properly, chosen with vet input.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-08-09",
+    "readTime": "10 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-food-for-sphynx-uk/hero.png",
+    "thumbnailImage": "images/articles/best-food-for-sphynx-uk/hero.png",
+    "affiliateLinks": {
+      "katkin": ""
+    },
+    "publishedAt": "2026-10-29T08:00:06.431Z"
+  },
+
+  {
     "id": "best-food-for-cat-with-sensitive-stomach-uk",
     "title": "Best Food for Cats With a Sensitive Stomach UK 2026: Vet-Backed Picks",
     "slug": "best-food-for-cat-with-sensitive-stomach-uk",
