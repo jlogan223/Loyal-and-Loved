@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-kitten-wet-food-uk",
+    "title": "Best Kitten Wet Food UK 2026: Vet-Reviewed Picks for Every Budget",
+    "slug": "best-kitten-wet-food-uk",
+    "category": "food-nutrition",
+    "excerpt": "Choosing the right wet food is one of the most important decisions you will make for your kitten. Here are the UK picks worth buying in 2026.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-09-20",
+    "readTime": "10 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-kitten-wet-food-uk/hero.png",
+    "thumbnailImage": "images/articles/best-kitten-wet-food-uk/hero.png",
+    "affiliateLinks": {
+      "katkin": ""
+    },
+    "publishedAt": "2026-10-30T08:00:05.639Z"
+  },
+
+  {
     "id": "best-food-for-sphynx-uk",
     "title": "Best Food for Sphynx Cats UK 2026: Nutrition Guide for a High-Energy Breed",
     "slug": "best-food-for-sphynx-uk",
