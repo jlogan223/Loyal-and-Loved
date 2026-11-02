@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-wet-food-for-british-shorthair-uk",
+    "title": "Best Wet Food for British Shorthair Cats UK 2026: Top Picks for Every Budget",
+    "slug": "best-wet-food-for-british-shorthair-uk",
+    "category": "food-nutrition",
+    "excerpt": "British Shorthairs are prone to weight gain, so choosing the right wet food matters. Here are the best UK options for 2026.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-07-26",
+    "readTime": "10 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-wet-food-for-british-shorthair-uk/hero.png",
+    "thumbnailImage": "images/articles/best-wet-food-for-british-shorthair-uk/hero.png",
+    "affiliateLinks": {
+      "katkin": ""
+    },
+    "publishedAt": "2026-11-02T08:00:05.840Z"
+  },
+
+  {
     "id": "best-kitten-wet-food-uk",
     "title": "Best Kitten Wet Food UK 2026: Vet-Reviewed Picks for Every Budget",
     "slug": "best-kitten-wet-food-uk",
