@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-wet-food-for-persian-cats-uk",
+    "title": "Best Wet Food for Persian Cats UK 2026: Vet-Reviewed Picks for a Fussy Breed",
+    "slug": "best-wet-food-for-persian-cats-uk",
+    "category": "breed-guides",
+    "excerpt": "Persian cats are notoriously fussy eaters with special nutritional needs. Here are the best wet food picks for 2026.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-08-23",
+    "readTime": "10 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-wet-food-for-persian-cats-uk/hero.png",
+    "thumbnailImage": "images/articles/best-wet-food-for-persian-cats-uk/hero.png",
+    "affiliateLinks": {
+      "katkin": ""
+    },
+    "publishedAt": "2026-11-03T08:00:05.218Z"
+  },
+
+  {
     "id": "best-wet-food-for-british-shorthair-uk",
     "title": "Best Wet Food for British Shorthair Cats UK 2026: Top Picks for Every Budget",
     "slug": "best-wet-food-for-british-shorthair-uk",
