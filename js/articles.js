@@ -7,6 +7,22 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "cat-behaviour-problems-uk",
+    "title": "Cat Behaviour Problems UK: Why Your Cat Does That and How to Help",
+    "slug": "cat-behaviour-problems-uk",
+    "category": "training-behaviour",
+    "excerpt": "From spraying to midnight zoomies, this plain-English guide explains the most common cat behaviour problems and what you can actually do about them.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-08-02",
+    "readTime": "11 min read",
+    "featured": false,
+    "heroImage": "images/articles/cat-behaviour-problems-uk/hero.png",
+    "thumbnailImage": "images/articles/cat-behaviour-problems-uk/hero.png",
+    "affiliateLinks": {},
+    "publishedAt": "2026-11-04T08:00:05.689Z"
+  },
+
+  {
     "id": "best-wet-food-for-persian-cats-uk",
     "title": "Best Wet Food for Persian Cats UK 2026: Vet-Reviewed Picks for a Fussy Breed",
     "slug": "best-wet-food-for-persian-cats-uk",
