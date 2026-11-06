@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "food-to-help-cat-gain-weight-uk",
+    "title": "Food to Help a Cat Gain Weight UK 2026: Vet-Backed Tips for Underweight Cats",
+    "slug": "food-to-help-cat-gain-weight-uk",
+    "category": "health-vet-care",
+    "excerpt": "An underweight cat needs careful feeding, not just more food. Here is expert-backed advice on safe weight gain for UK cats.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-08-23",
+    "readTime": "10 min read",
+    "featured": false,
+    "heroImage": "images/articles/food-to-help-cat-gain-weight-uk/hero.png",
+    "thumbnailImage": "images/articles/food-to-help-cat-gain-weight-uk/hero.png",
+    "affiliateLinks": {
+      "katkin": ""
+    },
+    "publishedAt": "2026-11-06T08:00:07.673Z"
+  },
+
+  {
     "id": "cat-behaviour-problems-uk",
     "title": "Cat Behaviour Problems UK: Why Your Cat Does That and How to Help",
     "slug": "cat-behaviour-problems-uk",
