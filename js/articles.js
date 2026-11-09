@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "french-bulldog-health-testing-uk",
+    "title": "French Bulldog Health Testing UK 2026: What to Check Before You Buy",
+    "slug": "french-bulldog-health-testing-uk",
+    "category": "health-vet-care",
+    "excerpt": "Before you bring home a French Bulldog, here is every health test that matters and exactly what the results should show.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-09-20",
+    "readTime": "11 min read",
+    "featured": false,
+    "heroImage": "images/articles/french-bulldog-health-testing-uk/hero.png",
+    "thumbnailImage": "images/articles/french-bulldog-health-testing-uk/hero.png",
+    "affiliateLinks": {
+      "viovet": ""
+    },
+    "publishedAt": "2026-11-09T08:00:05.908Z"
+  },
+
+  {
     "id": "food-to-help-cat-gain-weight-uk",
     "title": "Food to Help a Cat Gain Weight UK 2026: Vet-Backed Tips for Underweight Cats",
     "slug": "food-to-help-cat-gain-weight-uk",
