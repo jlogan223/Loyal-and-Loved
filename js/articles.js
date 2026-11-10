@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "hypoallergenic-food-for-cats-uk",
+    "title": "Hypoallergenic Cat Food UK 2026: Best Picks for Sensitive and Allergic Cats",
+    "slug": "hypoallergenic-food-for-cats-uk",
+    "category": "health-vet-care",
+    "excerpt": "Scratching, vomiting or loose stools? A hypoallergenic diet could help. We compare the best options for UK cats.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-08-09",
+    "readTime": "11 min read",
+    "featured": false,
+    "heroImage": "images/articles/hypoallergenic-food-for-cats-uk/hero.png",
+    "thumbnailImage": "images/articles/hypoallergenic-food-for-cats-uk/hero.png",
+    "affiliateLinks": {
+      "katkin": ""
+    },
+    "publishedAt": "2026-11-10T08:00:06.418Z"
+  },
+
+  {
     "id": "french-bulldog-health-testing-uk",
     "title": "French Bulldog Health Testing UK 2026: What to Check Before You Buy",
     "slug": "french-bulldog-health-testing-uk",
