@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-automatic-cat-feeder-uk",
+    "title": "Best Automatic Cat Feeder UK 2026: Timed and Smart Feeders Compared",
+    "slug": "best-automatic-cat-feeder-uk",
+    "category": "gear-tech",
+    "excerpt": "From simple timed dispensers to wi-fi smart feeders, we compare the best automatic cat feeders available in the UK right now.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-06-21",
+    "readTime": "10 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-automatic-cat-feeder-uk/hero.png",
+    "thumbnailImage": "images/articles/best-automatic-cat-feeder-uk/hero.png",
+    "affiliateLinks": {
+      "amazon-uk": ""
+    },
+    "publishedAt": "2026-11-11T08:00:06.757Z"
+  },
+
+  {
     "id": "hypoallergenic-food-for-cats-uk",
     "title": "Hypoallergenic Cat Food UK 2026: Best Picks for Sensitive and Allergic Cats",
     "slug": "hypoallergenic-food-for-cats-uk",
