@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-dog-food-uk",
+    "title": "Best Dog Food UK 2026: Top Picks for Every Budget and Breed",
+    "slug": "best-dog-food-uk",
+    "category": "food-nutrition",
+    "excerpt": "We compare the best dog food brands in the UK for 2026, covering nutrition, ingredients and value across dry, wet and fresh options.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-05-10",
+    "readTime": "12 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-dog-food-uk/hero.png",
+    "thumbnailImage": "images/articles/best-dog-food-uk/hero.png",
+    "affiliateLinks": {
+      "aatu": ""
+    },
+    "publishedAt": "2026-11-12T08:00:06.436Z"
+  },
+
+  {
     "id": "best-automatic-cat-feeder-uk",
     "title": "Best Automatic Cat Feeder UK 2026: Timed and Smart Feeders Compared",
     "slug": "best-automatic-cat-feeder-uk",
