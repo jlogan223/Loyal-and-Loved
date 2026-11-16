@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-food-for-maine-coon-uk",
+    "title": "Best Food for Maine Coon Cats UK 2026: Nutrition Guide and Top Picks",
+    "slug": "best-food-for-maine-coon-uk",
+    "category": "breed-guides",
+    "excerpt": "Maine Coons have unique dietary needs thanks to their size and coat. Here are the best foods to keep them healthy, available in the UK.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-06-21",
+    "readTime": "10 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-food-for-maine-coon-uk/hero.png",
+    "thumbnailImage": "images/articles/best-food-for-maine-coon-uk/hero.png",
+    "affiliateLinks": {
+      "katkin": ""
+    },
+    "publishedAt": "2026-11-16T08:00:09.744Z"
+  },
+
+  {
     "id": "best-dog-food-uk",
     "title": "Best Dog Food UK 2026: Top Picks for Every Budget and Breed",
     "slug": "best-dog-food-uk",
