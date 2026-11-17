@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-kitten-toys-uk",
+    "title": "Best Kitten Toys UK 2026: Keep Your Kitten Entertained and Healthy",
+    "slug": "best-kitten-toys-uk",
+    "category": "gear-tech",
+    "excerpt": "From feather wands to puzzle feeders, these are the best kitten toys available in the UK to keep your new arrival active and happy.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-05-17",
+    "readTime": "9 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-kitten-toys-uk/hero.png",
+    "thumbnailImage": "images/articles/best-kitten-toys-uk/hero.png",
+    "affiliateLinks": {
+      "omlet": ""
+    },
+    "publishedAt": "2026-11-17T08:00:05.536Z"
+  },
+
+  {
     "id": "best-food-for-maine-coon-uk",
     "title": "Best Food for Maine Coon Cats UK 2026: Nutrition Guide and Top Picks",
     "slug": "best-food-for-maine-coon-uk",
