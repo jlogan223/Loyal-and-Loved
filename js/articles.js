@@ -7,6 +7,24 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-salmon-oil-for-cats-uk",
+    "title": "Best Salmon Oil for Cats UK 2026: Benefits, Dosage and Top Picks",
+    "slug": "best-salmon-oil-for-cats-uk",
+    "category": "food-nutrition",
+    "excerpt": "Salmon oil can transform your cat's coat and support joint health. We round up the best UK options and explain exactly how much to give.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-05-24",
+    "readTime": "9 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-salmon-oil-for-cats-uk/hero.png",
+    "thumbnailImage": "images/articles/best-salmon-oil-for-cats-uk/hero.png",
+    "affiliateLinks": {
+      "katkin": ""
+    },
+    "publishedAt": "2026-11-18T08:00:05.907Z"
+  },
+
+  {
     "id": "best-kitten-toys-uk",
     "title": "Best Kitten Toys UK 2026: Keep Your Kitten Entertained and Healthy",
     "slug": "best-kitten-toys-uk",
