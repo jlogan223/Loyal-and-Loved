@@ -7,6 +7,22 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "cat-training-clicker-uk",
+    "title": "Cat Clicker Training UK: A Beginner's Step-by-Step Guide",
+    "slug": "cat-training-clicker-uk",
+    "category": "training-behaviour",
+    "excerpt": "Clicker training isn't just for dogs. Discover how to teach your cat new tricks using positive reinforcement, step by step.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-08-30",
+    "readTime": "10 min read",
+    "featured": false,
+    "heroImage": "images/articles/cat-training-clicker-uk/hero.png",
+    "thumbnailImage": "images/articles/cat-training-clicker-uk/hero.png",
+    "affiliateLinks": {},
+    "publishedAt": "2026-11-19T08:00:05.162Z"
+  },
+
+  {
     "id": "best-salmon-oil-for-cats-uk",
     "title": "Best Salmon Oil for Cats UK 2026: Benefits, Dosage and Top Picks",
     "slug": "best-salmon-oil-for-cats-uk",
