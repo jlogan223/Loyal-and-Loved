@@ -285,7 +285,8 @@ window.LNL_ARTICLES = [
     "heroImage": "images/articles/christmas-trees-cats-safety-uk-2026/hero.png",
     "thumbnailImage": "images/articles/christmas-trees-cats-safety-uk-2026/hero.png",
     "affiliateLinks": {},
-    "publishedAt": "2026-10-27T08:00:06.125Z"
+    "publishedAt": "2026-10-27T08:00:06.125Z",
+    "season": "winter"
   },
 
   {
@@ -301,7 +302,8 @@ window.LNL_ARTICLES = [
     "heroImage": "images/articles/antifreeze-poisoning-cats-uk-signs-treatment/hero.png",
     "thumbnailImage": "images/articles/antifreeze-poisoning-cats-uk-signs-treatment/hero.png",
     "affiliateLinks": {},
-    "publishedAt": "2026-10-23T07:00:06.017Z"
+    "publishedAt": "2026-10-23T07:00:06.017Z",
+    "season": "winter"
   },
 
   {
@@ -317,7 +319,8 @@ window.LNL_ARTICLES = [
     "heroImage": "images/articles/christmas-foods-toxic-dogs-cats-uk/hero.png",
     "thumbnailImage": "images/articles/christmas-foods-toxic-dogs-cats-uk/hero.png",
     "affiliateLinks": {},
-    "publishedAt": "2026-10-21T07:00:06.021Z"
+    "publishedAt": "2026-10-21T07:00:06.021Z",
+    "season": "winter"
   },
 
   {
@@ -335,7 +338,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "amazon-uk": ""
     },
-    "publishedAt": "2026-10-20T07:00:05.827Z"
+    "publishedAt": "2026-10-20T07:00:05.827Z",
+    "season": "winter"
   },
 
   {
@@ -353,7 +357,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "amazon-uk": ""
     },
-    "publishedAt": "2026-10-19T07:00:07.146Z"
+    "publishedAt": "2026-10-19T07:00:07.146Z",
+    "season": "winter"
   },
 
   {
@@ -389,7 +394,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "amazon-uk": ""
     },
-    "publishedAt": "2026-10-15T07:00:06.345Z"
+    "publishedAt": "2026-10-15T07:00:06.345Z",
+    "season": "autumn"
   },
 
   {
@@ -477,7 +483,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "viovet": ""
     },
-    "publishedAt": "2026-09-29T07:00:08.740Z"
+    "publishedAt": "2026-09-29T07:00:08.740Z",
+    "season": "autumn"
   },
 
   {
@@ -495,7 +502,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "viovet": ""
     },
-    "publishedAt": "2026-09-24T07:00:09.754Z"
+    "publishedAt": "2026-09-24T07:00:09.754Z",
+    "season": "autumn"
   },
 
   {
@@ -513,7 +521,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "amazon-uk": ""
     },
-    "publishedAt": "2026-09-21T07:00:08.847Z"
+    "publishedAt": "2026-09-21T07:00:08.847Z",
+    "season": "autumn"
   },
 
   {
@@ -563,7 +572,8 @@ window.LNL_ARTICLES = [
     "heroImage": "images/articles/outdoor-cats-autumn-safety-uk-shorter-days/hero.png",
     "thumbnailImage": "images/articles/outdoor-cats-autumn-safety-uk-shorter-days/hero.png",
     "affiliateLinks": {},
-    "publishedAt": "2026-09-10T07:00:08.479Z"
+    "publishedAt": "2026-09-10T07:00:08.479Z",
+    "season": "autumn"
   },
 
   {
@@ -597,7 +607,8 @@ window.LNL_ARTICLES = [
     "heroImage": "images/articles/clocks-going-back-adjust-dog-cat-routine-uk/hero.png",
     "thumbnailImage": "images/articles/clocks-going-back-adjust-dog-cat-routine-uk/hero.png",
     "affiliateLinks": {},
-    "publishedAt": "2026-09-02T07:00:11.138Z"
+    "publishedAt": "2026-09-02T07:00:11.138Z",
+    "season": "autumn"
   },
 
   {
@@ -615,7 +626,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "viovet": ""
     },
-    "publishedAt": "2026-09-01T07:00:09.666Z"
+    "publishedAt": "2026-09-01T07:00:09.666Z",
+    "season": "autumn"
   },
 
   {
@@ -633,7 +645,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "amazon-uk": ""
     },
-    "publishedAt": "2026-08-31T07:00:08.238Z"
+    "publishedAt": "2026-08-31T07:00:08.238Z",
+    "season": "autumn"
   },
 
   {
@@ -669,7 +682,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "viovet": ""
     },
-    "publishedAt": "2026-08-21T07:00:09.190Z"
+    "publishedAt": "2026-08-21T07:00:09.190Z",
+    "season": "autumn"
   },
 
   {
@@ -685,7 +699,8 @@ window.LNL_ARTICLES = [
     "heroImage": "images/articles/dog-separation-anxiety-signs-causes-help-back-to-work/hero.png",
     "thumbnailImage": "images/articles/dog-separation-anxiety-signs-causes-help-back-to-work/hero.png",
     "affiliateLinks": {},
-    "publishedAt": "2026-08-20T07:00:09.754Z"
+    "publishedAt": "2026-08-20T07:00:09.754Z",
+    "season": "autumn"
   },
 
   {
@@ -703,7 +718,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "viovet": ""
     },
-    "publishedAt": "2026-08-18T07:00:08.583Z"
+    "publishedAt": "2026-08-18T07:00:08.583Z",
+    "season": "autumn"
   },
 
   {
@@ -1057,7 +1073,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "amazon-uk": ""
     },
-    "publishedAt": "2026-06-26T07:00:01Z"
+    "publishedAt": "2026-06-26T07:00:01Z",
+    "season": "summer"
   },
 
   {
@@ -1073,7 +1090,8 @@ window.LNL_ARTICLES = [
     "heroImage": "images/articles/kennels-vs-pet-sitters-uk-costs-pros-cons/hero.png",
     "thumbnailImage": "images/articles/kennels-vs-pet-sitters-uk-costs-pros-cons/hero.png",
     "affiliateLinks": {},
-    "publishedAt": "2026-06-23T07:00:01Z"
+    "publishedAt": "2026-06-23T07:00:01Z",
+    "season": "summer"
   },
 
   {
@@ -1091,7 +1109,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "amazon-uk": ""
     },
-    "publishedAt": "2026-06-22T07:00:01Z"
+    "publishedAt": "2026-06-22T07:00:01Z",
+    "season": "summer"
   },
 
   {
@@ -1107,7 +1126,8 @@ window.LNL_ARTICLES = [
     "heroImage": "images/articles/blue-green-algae-dogs-uk-poisoning-signs/hero.png",
     "thumbnailImage": "images/articles/blue-green-algae-dogs-uk-poisoning-signs/hero.png",
     "affiliateLinks": {},
-    "publishedAt": "2026-06-19T07:00:01Z"
+    "publishedAt": "2026-06-19T07:00:01Z",
+    "season": "summer"
   },
 
   {
@@ -1125,7 +1145,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "amazon-uk": ""
     },
-    "publishedAt": "2026-06-18T07:00:01Z"
+    "publishedAt": "2026-06-18T07:00:01Z",
+    "season": "summer"
   },
 
   {
@@ -1141,7 +1162,8 @@ window.LNL_ARTICLES = [
     "heroImage": "images/articles/dog-walking-temperature-guide-uk/hero.png",
     "thumbnailImage": "images/articles/dog-walking-temperature-guide-uk/hero.png",
     "affiliateLinks": {},
-    "publishedAt": "2026-06-17T07:00:01Z"
+    "publishedAt": "2026-06-17T07:00:01Z",
+    "season": "summer"
   },
 
   {
@@ -1159,7 +1181,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "amazon-uk": ""
     },
-    "publishedAt": "2026-06-07T19:09:46Z"
+    "publishedAt": "2026-06-07T19:09:46Z",
+    "season": "summer"
   },
 
   {
@@ -1177,7 +1200,8 @@ window.LNL_ARTICLES = [
     "affiliateLinks": {
       "amazon-uk": ""
     },
-    "publishedAt": "2026-06-07T19:09:33Z"
+    "publishedAt": "2026-06-07T19:09:33Z",
+    "season": "summer"
   },
 
   {
@@ -1193,7 +1217,8 @@ window.LNL_ARTICLES = [
     "heroImage": "images/articles/dog-cat-heatstroke-signs-first-aid-uk/hero.png",
     "thumbnailImage": "images/articles/dog-cat-heatstroke-signs-first-aid-uk/hero.png",
     "affiliateLinks": {},
-    "publishedAt": "2026-06-07T19:09:21Z"
+    "publishedAt": "2026-06-07T19:09:21Z",
+    "season": "summer"
   },
 
   {
