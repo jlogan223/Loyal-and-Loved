@@ -1285,8 +1285,8 @@ window.LNL_ARTICLES = [
     "date": "2026-04-12",
     "readTime": "12 min read",
     "featured": true,
-    "heroImage": "images/placeholder-insurance-comparison.jpg",
-    "thumbnailImage": "images/placeholder-thumb-insurance.jpg",
+    "heroImage": "images/articles/best-pet-insurance-uk/hero.png",
+    "thumbnailImage": "images/articles/best-pet-insurance-uk/hero.png",
     "affiliateLinks": {
       "etplan": "",
       "riends": "",
@@ -1306,8 +1306,8 @@ window.LNL_ARTICLES = [
     "date": "2026-04-10",
     "readTime": "10 min read",
     "featured": true,
-    "heroImage": "images/placeholder-cost-comparison.jpg",
-    "thumbnailImage": "images/placeholder-thumb-cost.jpg",
+    "heroImage": "images/articles/pet-insurance-cost-uk/hero.png",
+    "thumbnailImage": "images/articles/pet-insurance-cost-uk/hero.png",
     "affiliateLinks": {
       "etplan": "",
       "riends": "",
@@ -1327,8 +1327,8 @@ window.LNL_ARTICLES = [
     "date": "2026-04-08",
     "readTime": "9 min read",
     "featured": false,
-    "heroImage": "images/placeholder-policy-types.jpg",
-    "thumbnailImage": "images/placeholder-thumb-policy.jpg",
+    "heroImage": "images/articles/lifetime-vs-annual-pet-insurance/hero.png",
+    "thumbnailImage": "images/articles/lifetime-vs-annual-pet-insurance/hero.png",
     "affiliateLinks": {
       "etplan": "",
       "riends": "",
@@ -1347,8 +1347,8 @@ window.LNL_ARTICLES = [
     "date": "2026-04-05",
     "readTime": "11 min read",
     "featured": true,
-    "heroImage": "images/placeholder-cat-insurance.jpg",
-    "thumbnailImage": "images/placeholder-thumb-cat.jpg",
+    "heroImage": "images/articles/best-cat-insurance-uk/hero.png",
+    "thumbnailImage": "images/articles/best-cat-insurance-uk/hero.png",
     "affiliateLinks": {
       "etplan": "",
       "any": "",
@@ -1385,8 +1385,8 @@ window.LNL_ARTICLES = [
     "date": "2026-04-06",
     "readTime": "11 min read",
     "featured": true,
-    "heroImage": "images/placeholder-vet-costs.jpg",
-    "thumbnailImage": "images/placeholder-thumb-vet.jpg",
+    "heroImage": "images/articles/vet-bills-uk/hero.png",
+    "thumbnailImage": "images/articles/vet-bills-uk/hero.png",
     "affiliateLinks": {
       "etplan": "",
       "ets": ""
@@ -1404,8 +1404,8 @@ window.LNL_ARTICLES = [
     "date": "2026-04-04",
     "readTime": "8 min read",
     "featured": false,
-    "heroImage": "images/placeholder-parasite-guide.jpg",
-    "thumbnailImage": "images/placeholder-thumb-parasite.jpg",
+    "heroImage": "images/articles/flea-tick-worm-protection/hero.png",
+    "thumbnailImage": "images/articles/flea-tick-worm-protection/hero.png",
     "affiliateLinks": {
       "ome": ""
     },
@@ -1422,8 +1422,8 @@ window.LNL_ARTICLES = [
     "date": "2026-03-30",
     "readTime": "8 min read",
     "featured": false,
-    "heroImage": "images/placeholder-dental-care.jpg",
-    "thumbnailImage": "images/placeholder-thumb-dental.jpg",
+    "heroImage": "images/articles/pet-dental-care/hero.png",
+    "thumbnailImage": "images/articles/pet-dental-care/hero.png",
     "affiliateLinks": {
       "ome": ""
     },
@@ -1440,8 +1440,8 @@ window.LNL_ARTICLES = [
     "date": "2026-03-27",
     "readTime": "10 min read",
     "featured": false,
-    "heroImage": "images/placeholder-senior-dog.jpg",
-    "thumbnailImage": "images/placeholder-thumb-senior.jpg",
+    "heroImage": "images/articles/senior-dog-care/hero.png",
+    "thumbnailImage": "images/articles/senior-dog-care/hero.png",
     "affiliateLinks": {
       "roviders": ""
     },
@@ -1458,8 +1458,8 @@ window.LNL_ARTICLES = [
     "date": "2026-03-25",
     "readTime": "9 min read",
     "featured": false,
-    "heroImage": "images/placeholder-emergency-vet.jpg",
-    "thumbnailImage": "images/placeholder-thumb-emergency.jpg",
+    "heroImage": "images/articles/emergency-vet-costs-uk/hero.png",
+    "thumbnailImage": "images/articles/emergency-vet-costs-uk/hero.png",
     "affiliateLinks": {
       "roviders": ""
     },
@@ -1476,8 +1476,8 @@ window.LNL_ARTICLES = [
     "date": "2026-03-22",
     "readTime": "9 min read",
     "featured": false,
-    "heroImage": "images/placeholder-indoor-outdoor-cats.jpg",
-    "thumbnailImage": "images/placeholder-thumb-indoor-outdoor.jpg",
+    "heroImage": "images/articles/indoor-vs-outdoor-cats/hero.png",
+    "thumbnailImage": "images/articles/indoor-vs-outdoor-cats/hero.png",
     "affiliateLinks": {
       "nsurance": "",
       "ome": ""
@@ -1495,8 +1495,8 @@ window.LNL_ARTICLES = [
     "date": "2026-03-20",
     "readTime": "11 min read",
     "featured": true,
-    "heroImage": "images/placeholder-dog-food.jpg",
-    "thumbnailImage": "images/placeholder-thumb-food.jpg",
+    "heroImage": "images/articles/best-fresh-dog-food-uk/hero.png",
+    "thumbnailImage": "images/articles/best-fresh-dog-food-uk/hero.png",
     "affiliateLinks": {
       "ox": "",
       "com": ""
@@ -1609,8 +1609,8 @@ window.LNL_ARTICLES = [
     "date": "2026-03-18",
     "readTime": "10 min read",
     "featured": true,
-    "heroImage": "images/placeholder-gps-tracker.jpg",
-    "thumbnailImage": "images/placeholder-thumb-gps.jpg",
+    "heroImage": "images/articles/best-dog-gps-tracker-uk/hero.png",
+    "thumbnailImage": "images/articles/best-dog-gps-tracker-uk/hero.png",
     "affiliateLinks": {
       "at": "",
       "ome": ""
@@ -1628,8 +1628,8 @@ window.LNL_ARTICLES = [
     "date": "2026-03-15",
     "readTime": "13 min read",
     "featured": true,
-    "heroImage": "images/placeholder-puppy-checklist.jpg",
-    "thumbnailImage": "images/placeholder-thumb-puppy.jpg",
+    "heroImage": "images/articles/puppy-first-year-checklist/hero.png",
+    "thumbnailImage": "images/articles/puppy-first-year-checklist/hero.png",
     "affiliateLinks": {
       "nsurance": "",
       "ox": "",
@@ -1649,8 +1649,8 @@ window.LNL_ARTICLES = [
     "date": "2026-03-12",
     "readTime": "11 min read",
     "featured": false,
-    "heroImage": "images/placeholder-dog-costs.jpg",
-    "thumbnailImage": "images/placeholder-thumb-dog-costs.jpg",
+    "heroImage": "images/articles/cost-of-owning-dog-uk/hero.png",
+    "thumbnailImage": "images/articles/cost-of-owning-dog-uk/hero.png",
     "affiliateLinks": {
       "nsurance": "",
       "roviders": "",
@@ -1669,8 +1669,8 @@ window.LNL_ARTICLES = [
     "date": "2026-03-10",
     "readTime": "10 min read",
     "featured": false,
-    "heroImage": "images/placeholder-cockapoo.jpg",
-    "thumbnailImage": "images/placeholder-thumb-cockapoo.jpg",
+    "heroImage": "images/articles/cockapoo-cost-uk/hero.png",
+    "thumbnailImage": "images/articles/cockapoo-cost-uk/hero.png",
     "affiliateLinks": {
       "nsurance": "",
       "com": "",
