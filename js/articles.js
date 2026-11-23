@@ -7,6 +7,25 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-dog-cat-advent-calendars-uk-2026",
+    "title": "Best dog and cat advent calendars UK 2026: what's inside, safety and value",
+    "slug": "best-dog-cat-advent-calendars-uk-2026",
+    "category": "gear-tech",
+    "excerpt": "Find the best pet advent calendars for dogs and cats in the UK. We review what's inside, safety standards and whether they're worth buying.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-10-14",
+    "readTime": "8 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-dog-cat-advent-calendars-uk-2026/hero.png",
+    "thumbnailImage": "images/articles/best-dog-cat-advent-calendars-uk-2026/hero.png",
+    "affiliateLinks": {
+      "amazon-uk": ""
+    },
+    "publishedAt": "2026-11-23T08:00:05.702Z",
+    "season": "winter"
+  },
+
+  {
     "id": "cat-training-clicker-uk",
     "title": "Cat Clicker Training UK: A Beginner's Step-by-Step Guide",
     "slug": "cat-training-clicker-uk",
