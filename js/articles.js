@@ -7,6 +7,25 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "best-winter-coats-for-dogs-uk-2026",
+    "title": "Best Winter Coats for Dogs UK 2026: Waterproof & Warm Jackets",
+    "slug": "best-winter-coats-for-dogs-uk-2026",
+    "category": "gear-tech",
+    "excerpt": "Find the best winter coats for dogs in the UK. Compare waterproof jackets, fleece liners and styles for small, medium and large breeds.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-06-05",
+    "readTime": "8 min read",
+    "featured": false,
+    "heroImage": "images/articles/best-winter-coats-for-dogs-uk-2026/hero.png",
+    "thumbnailImage": "images/articles/best-winter-coats-for-dogs-uk-2026/hero.png",
+    "affiliateLinks": {
+      "amazon-uk": ""
+    },
+    "publishedAt": "2026-11-24T08:00:07.417Z",
+    "season": "winter"
+  },
+
+  {
     "id": "best-dog-cat-advent-calendars-uk-2026",
     "title": "Best dog and cat advent calendars UK 2026: what's inside, safety and value",
     "slug": "best-dog-cat-advent-calendars-uk-2026",
