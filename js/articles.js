@@ -7,6 +7,25 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "winter-paw-pad-care-dogs-cats-salt-grit-uk",
+    "title": "Winter Paw and Pad Care for Dogs and Cats: Salt, Grit and Cracked Pads UK 2026",
+    "slug": "winter-paw-pad-care-dogs-cats-salt-grit-uk",
+    "category": "health-vet-care",
+    "excerpt": "Protect your dog or cat's paws this winter. Learn how salt, grit and ice damage pads, and the best care tips for UK pet owners.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-06-05",
+    "readTime": "8 min read",
+    "featured": false,
+    "heroImage": "images/articles/winter-paw-pad-care-dogs-cats-salt-grit-uk/hero.png",
+    "thumbnailImage": "images/articles/winter-paw-pad-care-dogs-cats-salt-grit-uk/hero.png",
+    "affiliateLinks": {
+      "viovet": ""
+    },
+    "publishedAt": "2026-11-26T08:00:05.695Z",
+    "season": "winter"
+  },
+
+  {
     "id": "best-winter-coats-for-dogs-uk-2026",
     "title": "Best Winter Coats for Dogs UK 2026: Waterproof & Warm Jackets",
     "slug": "best-winter-coats-for-dogs-uk-2026",
