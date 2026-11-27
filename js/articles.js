@@ -7,6 +7,25 @@
 
 window.LNL_ARTICLES = [
   {
+    "id": "dog-friendly-christmas-new-year-cottage-breaks-uk-2026",
+    "title": "Dog-Friendly Christmas & New Year Cottage Breaks UK 2026: Where to Book Early",
+    "slug": "dog-friendly-christmas-new-year-cottage-breaks-uk-2026",
+    "category": "gear-tech",
+    "excerpt": "Discover the best dog-friendly cottages for Christmas and New Year breaks across the UK. Early booking tips and top destinations for 2026.",
+    "author": "Loyal &amp; Loved Team",
+    "date": "2026-10-14",
+    "readTime": "9 min read",
+    "featured": false,
+    "heroImage": "images/articles/dog-friendly-christmas-new-year-cottage-breaks-uk-2026/hero.png",
+    "thumbnailImage": "images/articles/dog-friendly-christmas-new-year-cottage-breaks-uk-2026/hero.png",
+    "affiliateLinks": {
+      "cottages-com": ""
+    },
+    "publishedAt": "2026-11-27T08:00:05.257Z",
+    "season": "winter"
+  },
+
+  {
     "id": "winter-paw-pad-care-dogs-cats-salt-grit-uk",
     "title": "Winter Paw and Pad Care for Dogs and Cats: Salt, Grit and Cracked Pads UK 2026",
     "slug": "winter-paw-pad-care-dogs-cats-salt-grit-uk",
